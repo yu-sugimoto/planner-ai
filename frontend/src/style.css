@@ -1,0 +1,20 @@
+/* src/style.css */
+
+/* スマホ向けにbodyの余白など */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* UIkitのカードやフォームの余白調整などは随時追加してください */
+
+/* 地図部分の調整(例: result.html) */
+#map {
+    width: 100%;
+    /* 高さは inline style or JSで設定 */
+}
+
+/* routeList内のカードの見た目を少し整える */
+#routeList .uk-card {
+    cursor: pointer;
+}

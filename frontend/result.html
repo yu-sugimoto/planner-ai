@@ -1,0 +1,39 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>結果ページ</title>
+    <!-- UIkit CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+
+    <!-- Leaflet CSS (CDN) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+    <!-- メインCSS (Viteバンドル) -->
+    <script type="module" src="/src/main-result.js"></script>
+</head>
+<body>
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="optimize.html">戻る</a>
+    </div>
+</nav>
+
+<div class="uk-container uk-margin-top uk-padding-small">
+    <h2>最適化ルート</h2>
+    <!-- 地図表示領域 -->
+    <div id="map" style="height: 50vh;"></div>
+    <!-- リスト表示領域 -->
+    <div id="routeList" class="uk-margin-top"></div>
+</div>
+
+<!-- UIkit JS (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
+
+<!-- Leaflet JS (CDN) -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>トップページ</title>
+    <!-- UIkit CSS (CDNなどで直接読み込む例) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+    <!-- メインCSS (Viteバンドル) -->
+    <script type="module" src="/src/main-index.js"></script>
+</head>
+<body>
+<nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#">トップページ</a>
+    </div>
+</nav>
+
+<div class="uk-container uk-margin-top">
+    <form class="uk-form-stacked">
+        <div class="uk-margin">
+            <label class="uk-form-label" for="departure">出発地</label>
+            <div class="uk-form-controls">
+                <input class="uk-input" id="departure" type="text" placeholder="東京駅など">
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <button class="uk-button uk-button-default" type="button" id="gpsButton">GPSから取得</button>
+        </div>
+
+        <div class="uk-alert-primary" id="gpsInfo" style="display:none;" uk-alert></div>
+
+        <div class="uk-margin">
+            <button class="uk-button uk-button-primary" type="button" id="nextButton">次へ</button>
+        </div>
+    </form>
+</div>
+
+<!-- UIkit JS (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
