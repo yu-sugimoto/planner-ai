@@ -1,0 +1,54 @@
+{
+  "函館": [
+    {
+      "name": "道南トロッコ鉄道鶴岡公園駅",
+      "category": "Tourist Attraction",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">73 Tsuruoka, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0455</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.67088,
+        "lng": 140.41205929999998
+      }
+    },
+    {
+      "name": "ローマへの道",
+      "category": "Tourist Attraction",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7349332,
+        "lng": 140.5748082
+      }
+    },
+    {
+      "name": "Hokkaido Shinkansen Kikonai View Spot Observatory",
+      "category": "Observation Deck",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">39-4 Tategawa, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0452</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6640338,
+        "lng": 140.4179811
+      }
+    },
+    {
+      "name": "Lourdes Cave",
+      "category": "Historical Landmark",
+      "rating": 4,
+      "address": "<span class=\"street-address\">392 Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7441562,
+        "lng": 140.5619868
+      }
+    },
+    {
+      "name": "Samegawa Shrine",
+      "category": "Place of Worship",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">155-1 Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0431</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6822023,
+        "lng": 140.4318816
+      }
+    }
+  ]
+}
