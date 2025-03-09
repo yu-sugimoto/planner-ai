@@ -1,0 +1,3128 @@
+{
+  "函館": [
+    {
+      "name": "道南トロッコ鉄道鶴岡公園駅",
+      "category": "Tourist Attraction",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">73 Tsuruoka, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0455</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.67088,
+        "lng": 140.41205929999998
+      },
+      "japanese_name": "道南トロッコ鉄道鶴岡公園駅",
+      "description": "道南トロッコ鉄道鶴岡公園駅は、北海道の亀井郡木古内町に位置する観光地です。美しい自然を楽しみながら、トロッコ列車に乗ることができます。周辺には鶴岡公園もあり、散策やピクニックを楽しむことができます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 1
+    },
+    {
+      "name": "ローマへの道",
+      "category": "Tourist Attraction",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7349332,
+        "lng": 140.5748082
+      },
+      "japanese_name": "ローマへの道",
+      "description": "ローマへの道は、北海道の北斗市に位置する美しい観光地です。自然に囲まれたこの場所では、散策や写真撮影を楽しむことができます。訪れる人々は、その風景の素晴らしさに魅了されることでしょう。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 2
+    },
+    {
+      "name": "Hokkaido Shinkansen Kikonai View Spot Observatory",
+      "category": "Observation Deck",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">39-4 Tategawa, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0452</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6640338,
+        "lng": 140.4179811
+      },
+      "japanese_name": "北海道新幹線木古内ビュースポット展望台",
+      "description": "北海道新幹線木古内ビュースポット展望台は、木古内町に位置する絶景の展望台です。ここからは美しい風景を楽しむことができ、訪れる人々に素晴らしい体験を提供します。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 3
+    },
+    {
+      "name": "Lourdes Cave",
+      "category": "Historical Landmark",
+      "rating": 4,
+      "address": "<span class=\"street-address\">392 Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7441562,
+        "lng": 140.5619868
+      },
+      "japanese_name": "ルルドの洞窟",
+      "description": "ルルドの洞窟は、北海道の北斗市に位置する歴史的なランドマークです。この場所は美しい自然に囲まれ、訪れる人々に静かなひとときを提供します。歴史的な背景を持つこの洞窟は、観光客にとって魅力的なスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 4
+    },
+    {
+      "name": "Samegawa Shrine",
+      "category": "Place of Worship",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">155-1 Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0431</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6822023,
+        "lng": 140.4318816
+      },
+      "japanese_name": "鮫川神社",
+      "description": "鮫川神社は北海道上磯町に位置する神社で、地域の信仰を集めています。自然に囲まれた静かな場所で、訪れる人々に心の平安をもたらすスポットです。美しい景色と共に、神社の歴史を感じることができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 5
+    },
+    {
+      "name": "重内展望台",
+      "category": "Observation Deck",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Omonai, Shiriuchi, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-1103</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6118314,
+        "lng": 140.3896562
+      },
+      "japanese_name": "重内展望台",
+      "description": "重内展望台は、北海道の神威岬に位置する美しい展望台です。ここからは周囲の自然や海の景色を楽しむことができ、特に夕日が美しいことで知られています。観光客にとってリラックスできるスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 6
+    },
+    {
+      "name": "Mt. Yakushi",
+      "category": "Observation Deck",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0431</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6840887,
+        "lng": 140.4357222
+      },
+      "japanese_name": "薬師岳",
+      "description": "薬師岳は北海道の上磯郡木古内に位置する展望台です。美しい自然景観を楽しむことができ、多くの観光客が訪れます。周囲の山々や海の景色を一望できるスポットとして人気です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 7
+    },
+    {
+      "name": "Shiriuchi Local Museum",
+      "category": "Museum",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">31-47 Omonai, Shiriuchi, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-1103</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.600936,
+        "lng": 140.419074
+      },
+      "japanese_name": "知内町立博物館",
+      "description": "知内町立博物館は、北海道の知内町に位置する博物館です。この博物館では、地元の歴史や文化、自然についての展示が行われています。訪れることで、知内の魅力を深く理解することができます。",
+      "fare": 300,
+      "staytime": 60,
+      "id": 8
+    },
+    {
+      "name": "サラキ岬に蘇る咸臨丸",
+      "category": "Tourist Attraction",
+      "rating": 3.6,
+      "address": "PG2F+FF, <span class=\"street-address\">Kamekawa, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0404</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7012381,
+        "lng": 140.52369099999999
+      },
+      "japanese_name": "サラキ岬に蘇る咸臨丸",
+      "description": "サラキ岬に蘇る咸臨丸は、北海道の木古内町に位置する観光地です。歴史的な船、咸臨丸の復元を見ることができ、海の景色を楽しむことができます。周辺には自然も豊かで、訪れる価値があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 9
+    },
+    {
+      "name": "Raiko Shrine",
+      "category": "Place of Worship",
+      "rating": 4,
+      "address": "<span class=\"street-address\">232 Motomachi, Shiriuchi, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-1106</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.5958691,
+        "lng": 140.4133405
+      },
+      "japanese_name": "雷光神社",
+      "description": "雷光神社は北海道の知内町に位置する神社で、地元の人々に親しまれています。美しい自然に囲まれた場所で、訪れる人々は静かなひとときを過ごすことができます。神社の歴史や文化を感じながら、心を落ち着けることができるスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 10
+    },
+    {
+      "name": "Mt. Hakodate Ropeway - Mountain Base Station",
+      "category": "不明",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">19-7 Motomachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0054</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7609078,
+        "lng": 140.7143007
+      },
+      "japanese_name": "函館山ロープウェイ - 山麓駅",
+      "description": "函館山ロープウェイは、函館市内を一望できる絶景スポットです。山頂までのアクセスが便利で、夜景も非常に美しいです。観光客に人気のあるアトラクションで、特に夕暮れ時の訪問が推奨されます。",
+      "fare": 1500,
+      "staytime": 60,
+      "id": 11
+    },
+    {
+      "name": "Hachiman-Zaka Slope",
+      "category": "Tourist Attraction",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">14 Motomachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0054</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7639012,
+        "lng": 140.71180429999998
+      },
+      "japanese_name": "八幡坂",
+      "description": "八幡坂は函館の美しい観光地で、坂を上ると素晴らしい景色が広がります。特に夜景が有名で、多くの観光客が訪れます。周囲には歴史的な建物も点在しており、散策に最適な場所です。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 12
+    },
+    {
+      "name": "Old Public Hall of Hakodate Ward",
+      "category": "不明",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒040-0054</span> <span class=\"region\">Hokkaido</span>, <span class=\"street-address\">Hakodate, Motomachi, 11−１３ 旧函館区公会堂内</span>",
+      "location": {
+        "lat": 41.7650219,
+        "lng": 140.70893479999998
+      },
+      "japanese_name": "旧函館区公会堂",
+      "description": "旧函館区公会堂は、北海道函館市に位置する歴史的な建物で、明治時代に建設されました。美しい洋風建築が特徴で、観光客に人気のスポットです。館内では函館の歴史や文化に触れることができます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 13
+    },
+    {
+      "name": "Cape Tachimachi",
+      "category": "不明",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">9-9 Sumiyoshichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0045</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7450354,
+        "lng": 140.7212027
+      },
+      "japanese_name": "立待岬",
+      "description": "立待岬は北海道函館市に位置する美しい岬です。海に沈む夕日や、周囲の自然を楽しむことができます。観光客に人気のスポットで、散策や写真撮影にぴったりの場所です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 14
+    },
+    {
+      "name": "Hakodate Hachimangu",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-5 Yachigashirachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0046</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7538779,
+        "lng": 140.710075
+      },
+      "japanese_name": "函館八幡宮",
+      "description": "函館八幡宮は、北海道函館市に位置する神社です。歴史的な背景を持ち、地域の人々に親しまれています。美しい境内と静かな雰囲気が魅力で、参拝者が訪れる場所です。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 15
+    },
+    {
+      "name": "Hakodate Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">17-１７番地 Aoyagichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7563506,
+        "lng": 140.71583379999998
+      },
+      "japanese_name": "函館公園",
+      "description": "函館公園は、北海道函館市にある美しい公園です。自然豊かな環境で、四季折々の風景を楽しむことができます。散策やピクニックに最適な場所で、観光客にも人気があります。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 16
+    },
+    {
+      "name": "Hakodate Orthodox Church",
+      "category": "Church",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">3-13 Motomachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0054</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.762791299999996,
+        "lng": 140.7122004
+      },
+      "japanese_name": "函館ハリストス正教会",
+      "description": "函館ハリストス正教会は、北海道函館市に位置する美しい教会です。歴史的な建築様式と独特の雰囲気が魅力で、多くの観光客が訪れます。周囲の景観とともに、静かな時間を楽しむことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 17
+    },
+    {
+      "name": "Children's World",
+      "category": "Amusement Park",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">17-4 Aoyagichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.756619799999996,
+        "lng": 140.7166045
+      },
+      "japanese_name": "子供の世界",
+      "description": "子供の世界は、北海道函館にある楽しい遊園地です。様々なアトラクションや遊び場があり、家族連れに人気があります。子供たちが楽しめるイベントも開催されており、思い出に残る一日を過ごせます。",
+      "fare": 3000,
+      "staytime": 180,
+      "id": 18
+    },
+    {
+      "name": "Catholic Church Hakodate Motomachi",
+      "category": "Church",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒040-0054</span> <span class=\"region\">Hokkaido</span>, <span class=\"street-address\">Hakodate, Motomachi, 15−３０ 元町教会</span>",
+      "location": {
+        "lat": 41.763265600000004,
+        "lng": 140.7129206
+      },
+      "japanese_name": "元町教会",
+      "description": "元町教会は、北海道函館市に位置する美しいカトリック教会です。歴史的な建築様式と静かな雰囲気が魅力で、多くの観光客が訪れます。教会内には素晴らしいステンドグラスがあり、訪れる人々を魅了します。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 19
+    },
+    {
+      "name": "Hakodate Gokoku Shrine",
+      "category": "Place of Worship",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">9-23 Aoyagichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.759291,
+        "lng": 140.7133523
+      },
+      "japanese_name": "函館護国神社",
+      "description": "函館護国神社は、北海道函館に位置する神社で、戦没者を祀るために建立されました。美しい自然に囲まれた境内は、訪れる人々に静けさと安らぎを提供します。歴史的な背景を持つこの場所は、観光客にも人気のスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 20
+    },
+    {
+      "name": "Omazaki",
+      "category": "不明",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Ōmataira-17-1 Ōma, Oma, Shimokita District</span>, <span class=\"region\">Aomori</span> <span class=\"postal-code\">039-4601</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.5465039,
+        "lng": 140.9129581
+      },
+      "japanese_name": "大間崎",
+      "description": "大間崎は青森県下北郡大間町に位置する美しい観光地です。太平洋に面しており、絶景の海岸線や新鮮な海の幸を楽しむことができます。特に、近くの大間港からは新鮮なマグロが有名です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 21
+    },
+    {
+      "name": "Shinoridate Ruins",
+      "category": "Historical Place",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">Shinoricho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0923</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.765777799999995,
+        "lng": 140.8221466
+      },
+      "japanese_name": "篠里遺跡",
+      "description": "篠里遺跡は、北海道函館市に位置する歴史的な場所です。この遺跡は古代の人々の生活や文化を知る手がかりを提供しており、観光客にとって興味深いスポットです。歴史に興味がある方には特におすすめの場所です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 22
+    },
+    {
+      "name": "Hakodate City Museum",
+      "category": "Museum",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">17-1 Aoyagichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7559785,
+        "lng": 140.71479829999998
+      },
+      "japanese_name": "函館市博物館",
+      "description": "函館市博物館は、函館の歴史や文化を学ぶことができる場所です。多様な展示があり、地域の魅力を感じることができます。観光客にとって、函館の過去を知る貴重な体験ができるでしょう。",
+      "fare": 500,
+      "staytime": 60,
+      "id": 23
+    },
+    {
+      "name": "Maguro monument (Tuna Statue of Honshu North Edge)",
+      "category": "Sculpture",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Omataira Oma, Shimokita District</span>, <span class=\"region\">Aomori</span> <span class=\"postal-code\">039-4601</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.5462637,
+        "lng": 140.9124067
+      },
+      "japanese_name": "マグロのモニュメント（本州北端のマグロ像）",
+      "description": "マグロのモニュメントは、青森県下北郡大間平に位置する特徴的な彫刻です。この像は、地元の漁業文化を象徴しており、観光客に人気のスポットとなっています。周辺には美しい海景色も広がっています。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 24
+    },
+    {
+      "name": "Hekketsu-hi Monument",
+      "category": "Historical Landmark",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1 Yachigashiracho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0046</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7518014,
+        "lng": 140.7085648
+      },
+      "japanese_name": "熱血碑",
+      "description": "熱血碑は北海道函館市にある歴史的なランドマークです。この碑は、函館の歴史や文化を伝える重要な場所で、多くの観光客が訪れます。周囲の美しい景観と共に、歴史を感じることができるスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 25
+    },
+    {
+      "name": "Ōmazaki Lighthouse",
+      "category": "Tourist Attraction",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒039-4601</span> <span class=\"region\">青森県</span><span class=\"street-address\">下北郡大間町大間弁天１</span>",
+      "location": {
+        "lat": 41.554628699999995,
+        "lng": 140.9115531
+      },
+      "japanese_name": "大間崎灯台",
+      "description": "大間崎灯台は青森県下北郡大間町に位置する美しい灯台です。観光客はここから素晴らしい海の景色を楽しむことができます。周辺には自然が豊かで、散策にも最適なスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 26
+    },
+    {
+      "name": "Ishizakijinushikai Shrine",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">248 Shiroishichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0265</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7627373,
+        "lng": 140.9060839
+      },
+      "japanese_name": "石崎神社",
+      "description": "石崎神社は、北海道函館市に位置する神社です。自然に囲まれた静かな場所にあり、地元の人々や観光客に親しまれています。神社の境内には美しい景観が広がり、参拝や散策に最適です。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 27
+    },
+    {
+      "name": "Toi Fishing Harbor",
+      "category": "不明",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">Hamacho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0311</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7197417,
+        "lng": 141.0253998
+      },
+      "japanese_name": "戸井漁港",
+      "description": "戸井漁港は北海道函館市に位置する漁港です。新鮮な海産物が豊富で、地元の人々にも愛されています。観光客は美しい海の景色を楽しみながら、地元の食材を味わうことができます。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 28
+    },
+    {
+      "name": "Nishifukitukeyama Observatory",
+      "category": "Observation Deck",
+      "rating": 3.5,
+      "address": "<span class=\"street-address\">Uchiyama-48-1 Ōma, Oma, Shimokita District</span>, <span class=\"region\">Aomori</span> <span class=\"postal-code\">039-4601</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.517740599999996,
+        "lng": 140.9331801
+      },
+      "japanese_name": "西福塚山展望台",
+      "description": "西福塚山展望台は、青森県下北郡大間町に位置する素晴らしい展望台です。ここからは、周囲の美しい自然や海の景色を一望することができます。観光客にとって、特に夕日が美しいスポットとして人気があります。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 29
+    },
+    {
+      "name": "Muinoshima Observation Deck (Ikoi-no-oka Park)",
+      "category": "Observation Deck",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Hamacho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0311</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7202377,
+        "lng": 141.02729779999999
+      },
+      "japanese_name": "睦の島展望台（いこいの丘公園）",
+      "description": "睦の島展望台は、函館市にある美しい景色を楽しむことができる展望台です。特に夜景が素晴らしく、多くの観光客が訪れます。周囲の自然も楽しめるので、散策にも最適な場所です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 30
+    },
+    {
+      "name": "本州国道最北端",
+      "category": "Tourist Attraction",
+      "rating": 4,
+      "address": "<span class=\"street-address\">Hosoma-23-133 Ōma, Oma, Shimokita District</span>, <span class=\"region\">Aomori</span> <span class=\"postal-code\">039-4601</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.5295125,
+        "lng": 140.9042082
+      },
+      "japanese_name": "本州国道最北端",
+      "description": "本州国道最北端は、青森県大間町に位置する観光名所です。日本本土の最北端の地として、多くの観光客が訪れます。美しい海の景色や新鮮な海産物を楽しむことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 31
+    },
+    {
+      "name": "汐泊左岸",
+      "category": "Tourist Attraction",
+      "rating": "不明",
+      "address": "<span class=\"street-address\">７-28 Furukawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0262</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.759637399999995,
+        "lng": 140.85909379999998
+      },
+      "japanese_name": "汐泊左岸",
+      "description": "汐泊左岸は、函館の美しい景色を楽しむことができる観光地です。海に面した場所で、散策や写真撮影に最適です。周辺には飲食店やショップもあり、観光客に人気があります。",
+      "fare": null,
+      "staytime": null,
+      "id": 32
+    },
+    {
+      "name": "Kanemori Red Brick Warehouse",
+      "category": "Shopping Mall",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">14-12 Suehirochō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0053</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.76649270000001,
+        "lng": 140.71637769999998
+      },
+      "japanese_name": "金森赤レンガ倉庫",
+      "description": "金森赤レンガ倉庫は、函館にあるショッピングモールです。歴史的な赤レンガの建物が特徴で、様々なショップやレストランが集まっています。観光客に人気のスポットで、函館の魅力を感じることができます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 33
+    },
+    {
+      "name": "Former British Consulate of Hakodate",
+      "category": "Museum",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">33-14 Motomachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0054</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.76594980000001,
+        "lng": 140.7106585
+      },
+      "japanese_name": "旧イギリス領事館",
+      "description": "旧イギリス領事館は、函館の歴史的な建物であり、明治時代に建設されました。美しい洋館の外観や、当時の生活を感じる展示が魅力です。観光客にとって、函館の歴史を学ぶ良い機会となります。",
+      "fare": 200,
+      "staytime": 60,
+      "id": 34
+    },
+    {
+      "name": "Motomachi Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">12-18 Motomachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0054</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7654424,
+        "lng": 140.70947909999998
+      },
+      "japanese_name": "元町公園",
+      "description": "元町公園は、函館の美しい景色を楽しめる公園です。散歩やピクニックに最適な場所で、四季折々の花々が楽しめます。観光名所も近くにあり、観光の合間に訪れるのにぴったりです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 35
+    },
+    {
+      "name": "Goryōkaku Tower",
+      "category": "Observation Deck",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">43-9 Goryōkakuchō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.794669899999995,
+        "lng": 140.75402
+      },
+      "japanese_name": "五稜郭タワー",
+      "description": "五稜郭タワーは、函館に位置する展望台で、五稜郭の美しい星形の堀を一望できる場所です。展望台からは、周囲の自然や市街地の景色も楽しむことができます。特に夜景が美しく、多くの観光客が訪れます。",
+      "fare": 900,
+      "staytime": 60,
+      "id": 36
+    },
+    {
+      "name": "Goryōkaku",
+      "category": "Historical Place",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">44-44 Goryōkakuchō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.796924499999996,
+        "lng": 140.7567838
+      },
+      "japanese_name": "五稜郭",
+      "description": "五稜郭は、北海道函館に位置する歴史的な場所です。星形の要塞として知られ、幕末の歴史に深く関わっています。美しい桜の名所でもあり、観光客に人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 37
+    },
+    {
+      "name": "Goryokaku Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">44-2 Goryōkakuchō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7968814,
+        "lng": 140.75611379999998
+      },
+      "japanese_name": "五稜郭公園",
+      "description": "五稜郭公園は、北海道函館市に位置する歴史的な公園です。五稜郭は星形の城郭で、桜の名所としても知られています。春には美しい桜が咲き誇り、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 38
+    },
+    {
+      "name": "Hakodate Tropical Botanical Garden",
+      "category": "Botanical Garden",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">3-chōme-1-15 Yunokawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0932</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.774009299999996,
+        "lng": 140.7895005
+      },
+      "japanese_name": "函館熱帯植物園",
+      "description": "函館熱帯植物園は、北海道函館市に位置する美しい植物園です。多様な熱帯植物や珍しい花々を楽しむことができ、訪れる人々に癒しの空間を提供しています。家族連れや植物愛好者に最適なスポットです。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 39
+    },
+    {
+      "name": "Our Lady of the Angels Trappistine Abbey",
+      "category": "Place of Worship",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">346 Kamiyunokawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0914</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7879845,
+        "lng": 140.8226181
+      },
+      "japanese_name": "天使の聖母トラピスト修道院",
+      "description": "天使の聖母トラピスト修道院は、北海道函館に位置する美しい修道院です。静かな環境の中で、心を落ち着けることができる場所です。訪れる人々は、祈りや瞑想を通じて精神的な安らぎを得ることができます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 40
+    },
+    {
+      "name": "Yukura Shrine",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-chōme-28-1 Yunokawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0932</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7820933,
+        "lng": 140.79102229999998
+      },
+      "japanese_name": "湯倉神社",
+      "description": "湯倉神社は北海道函館に位置する神社で、地元の人々に親しまれています。美しい自然に囲まれた静かな場所で、訪れる人々は心を落ち着けることができます。神社の歴史や文化を感じながら、穏やかなひとときを過ごせるスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 41
+    },
+    {
+      "name": "Hakodate Kosetsuen",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">56 Miharashicho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0956</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7919847,
+        "lng": 140.8028251
+      },
+      "japanese_name": "函館公設園",
+      "description": "函館公設園は、北海道函館市に位置する美しい公園です。四季折々の自然を楽しむことができ、特に桜の季節には多くの観光客が訪れます。散策やピクニックに最適な場所で、家族連れにも人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 42
+    },
+    {
+      "name": "Takubokusho Park",
+      "category": "Park",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">25 Hinodecho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0022</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.772531099999995,
+        "lng": 140.75419510000003
+      },
+      "japanese_name": "拓牧所公園",
+      "description": "拓牧所公園は、北海道函館に位置する美しい公園です。自然豊かな環境で、散策やリラックスに最適な場所です。家族連れやカップルにも人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 43
+    },
+    {
+      "name": "Hakodate City Forest",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">327-1 Kamiyunokawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0914</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.787953699999996,
+        "lng": 140.8176406
+      },
+      "japanese_name": "函館市森林公園",
+      "description": "函館市森林公園は、自然豊かな公園であり、散策やピクニックに最適な場所です。四季折々の美しい風景を楽しむことができ、特に春の桜や秋の紅葉が魅力的です。家族連れや友人とのレクリエーションにも適しています。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 44
+    },
+    {
+      "name": "Hakodateshi Hokuyo Museum",
+      "category": "Museum",
+      "rating": 4.3,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒040-0001</span> <span class=\"region\">Hokkaido</span>, <span class=\"street-address\">Hakodate, Goryōkakuchō, 37−３７−８ 北洋資料館</span>",
+      "location": {
+        "lat": 41.7937764,
+        "lng": 140.75604199999998
+      },
+      "japanese_name": "北洋資料館",
+      "description": "北洋資料館は、函館市に位置する博物館で、北海道の海洋文化や歴史を展示しています。多様な資料や展示物を通じて、地域の漁業や貿易の歴史を学ぶことができます。",
+      "fare": 500,
+      "staytime": 60,
+      "id": 45
+    },
+    {
+      "name": "Hakodateyunokawa Fishing port",
+      "category": "不明",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-1-20 Yunokawachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">042-0932</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7739037,
+        "lng": 140.779739
+      },
+      "japanese_name": "函館湯の川漁港",
+      "description": "函館湯の川漁港は、北海道函館市に位置する漁港です。新鮮な海産物を楽しむことができる場所で、地元の漁師たちの活動を間近に見ることができます。観光客にも人気のスポットで、海の魅力を体感できます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 46
+    },
+    {
+      "name": "Showa Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">20-6 Shōwachō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0823</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.8147472,
+        "lng": 140.7264968
+      },
+      "japanese_name": "昭和公園",
+      "description": "昭和公園は、北海道函館市に位置する美しい公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。家族連れや友人同士で訪れるのにぴったりの場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 47
+    },
+    {
+      "name": "Midori no Shima",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">15 Omachi, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0052</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.77071480000001,
+        "lng": 140.7138851
+      },
+      "japanese_name": "緑の島",
+      "description": "緑の島は、函館にある美しい公園です。自然が豊かで、散策やピクニックに最適な場所です。家族連れやカップルにも人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 48
+    },
+    {
+      "name": "Hachironuma Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">132 Mukaino, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1231</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.888946399999995,
+        "lng": 140.6144133
+      },
+      "japanese_name": "八白沼公園",
+      "description": "八白沼公園は、北海道の北斗市に位置する美しい公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。四季折々の風景が魅力で、特に春の桜や秋の紅葉が訪れる人々を惹きつけます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 49
+    },
+    {
+      "name": "Roadside Station Jomon Roman Minamikayabe",
+      "category": "Rest Stop",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">551-1 Usujirichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1613</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.92763,
+        "lng": 140.945506
+      },
+      "japanese_name": "道の駅 縄文ロマン南かやべ",
+      "description": "道の駅 縄文ロマン南かやべは、北海道函館に位置する休憩スポットです。地元の特産品やお土産を購入できるほか、観光情報を得ることもできます。観光客やドライバーの憩いの場として、多くの人に利用されています。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 50
+    },
+    {
+      "name": "Hakodate Jomon Culture Center",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">551-1 Usujirichō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1613</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.9278839,
+        "lng": 140.94488339999998
+      },
+      "japanese_name": "函館縄文文化センター",
+      "description": "函館縄文文化センターは、北海道函館に位置する博物館です。縄文時代の文化や遺物を展示しており、訪れる人々にその魅力を伝えています。歴史的な背景を学びながら、貴重な体験ができる場所です。",
+      "fare": 500,
+      "staytime": 90,
+      "id": 51
+    },
+    {
+      "name": "Kamedahachimangu",
+      "category": "Place of Worship",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">3-2 Hachimanchō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">040-0083</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7915686,
+        "lng": 140.7365793
+      },
+      "japanese_name": "亀田八幡宮",
+      "description": "亀田八幡宮は、北海道函館市に位置する神社です。地域の人々に信仰されており、歴史的な背景を持つ場所です。美しい境内と神聖な雰囲気が魅力で、訪れる人々を癒します。特に初詣や祭りの時期には多くの参拝者で賑わいます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 52
+    },
+    {
+      "name": "Onuma National Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">Onumacho, Nanae, Kameda District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1354</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.9838473,
+        "lng": 140.6721442
+      },
+      "japanese_name": "大沼国立公園",
+      "description": "大沼国立公園は、北海道の美しい自然を楽しむことができる場所です。湖や山々が織りなす風景は、四季折々に異なる表情を見せます。ハイキングやボート遊びが楽しめるため、多くの観光客に人気があります。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 53
+    },
+    {
+      "name": "Shirotai Ranch Observation Deck",
+      "category": "Observation Deck",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">Kamifujishiro, Nanae, Kameda District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1104</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.9224375,
+        "lng": 140.7119213
+      },
+      "japanese_name": "白台牧場展望台",
+      "description": "白台牧場展望台は、北海道の七飯町に位置する美しい展望台です。周囲の自然と広がる牧場の景色を楽しむことができ、訪れる人々に癒しを提供します。特に晴れた日には素晴らしい眺望が広がります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 54
+    },
+    {
+      "name": "北斗市健康センターせせらぎ温泉",
+      "category": "Point of interest",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">4-chōme-3-20 Honchō, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1201</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.8797552,
+        "lng": 140.6401196
+      },
+      "japanese_name": "北斗市健康センターせせらぎ温泉",
+      "description": "北斗市健康センターせせらぎ温泉は、北海道の北斗市にある温泉施設です。リラックスできる温泉と健康に配慮したサービスを提供しており、訪れる人々に癒しのひとときを提供します。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 55
+    },
+    {
+      "name": "Matsumae Clan Hekirichi Jinya Ruins",
+      "category": "Historical Landmark",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">Nozaki, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0158</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.8542555,
+        "lng": 140.6192755
+      },
+      "japanese_name": "松前藩平里陣屋跡",
+      "description": "松前藩平里陣屋跡は、北海道の北斗市に位置する歴史的な名所です。この場所は、松前藩の政治や軍事の拠点として重要な役割を果たしました。歴史的な背景を感じながら散策できるスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 56
+    },
+    {
+      "name": "Yunosawa Waterside Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">Mohejiichinowatari, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0285</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7946534,
+        "lng": 140.5494334
+      },
+      "japanese_name": "ユノサワ水辺公園",
+      "description": "ユノサワ水辺公園は、北海道の北斗市に位置する美しい公園です。自然に囲まれた環境で、散策やピクニックを楽しむことができます。家族連れやカップルに人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 57
+    },
+    {
+      "name": "Hokkiji",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-14-13 Mukaino, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1231</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.881675,
+        "lng": 140.637483
+      },
+      "japanese_name": "法起寺",
+      "description": "法起寺は北海道の北斗市にある寺院で、静かな環境の中で心を落ち着けることができます。美しい景観と歴史的な建造物が魅力で、多くの参拝者が訪れます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 58
+    },
+    {
+      "name": "Nanaechoakamatsu Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">5-chōme-122-1 Ōnakayama, Nanae, Kameda District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1121</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.8779251,
+        "lng": 140.7062833
+      },
+      "japanese_name": "七重町赤松公園",
+      "description": "七重町赤松公園は、北海道の七飯町に位置する美しい公園です。自然豊かな環境で、散策やピクニックに最適な場所です。家族連れや観光客に人気があり、四季折々の風景が楽しめます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 59
+    },
+    {
+      "name": "Mt.Higure Observation deck.",
+      "category": "Observation Deck",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">Nishionuma, Nanae, Kameda District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1355</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.98038270000001,
+        "lng": 140.6436862
+      },
+      "japanese_name": "日暮れ展望台",
+      "description": "日暮れ展望台は、北海道の七飯町に位置する美しい展望台です。周囲の自然を楽しみながら、素晴らしい景色を眺めることができます。特に夕日が沈む時間帯は格別です。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 60
+    },
+    {
+      "name": "Ono River Sakura Corridor",
+      "category": "Tourist Attraction",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-chōme-10-32 Honchō, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1201</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.885778699999996,
+        "lng": 140.63859580000002
+      },
+      "japanese_name": "大野川桜回廊",
+      "description": "大野川桜回廊は、北海道の美しい桜並木が楽しめる観光地です。春になると、桜が満開になり、多くの観光客が訪れます。川沿いを散策しながら、絶景の桜を堪能することができます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 61
+    },
+    {
+      "name": "Hakodate Nanae Snow Park",
+      "category": "Ski Resort",
+      "rating": 4,
+      "address": "<span class=\"street-address\">666 Higashiōnuma, Nanae, Kameda District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1351</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.986998,
+        "lng": 140.7469165
+      },
+      "japanese_name": "函館七飯スノーパーク",
+      "description": "函館七飯スノーパークは、北海道の七飯町に位置するスキーリゾートです。冬季には多彩なスキーコースが楽しめ、家族連れや初心者にも優しい環境が整っています。美しい自然の中でスキーやスノーボードを楽しむことができます。",
+      "fare": 5000,
+      "staytime": 180,
+      "id": 62
+    },
+    {
+      "name": "South Hokkaido Shiki no Mori Prefectural Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒041-0803</span> <span class=\"region\">Hokkaido</span>, <span class=\"street-address\">Hakodate, Kamedanakanochō</span>, 亀田中野町１９９－２",
+      "location": {
+        "lat": 41.8478113,
+        "lng": 140.7686652
+      },
+      "japanese_name": "南北海道四季の森道立公園",
+      "description": "南北海道四季の森道立公園は、北海道函館市に位置する美しい公園です。四季折々の自然を楽しむことができ、散策やピクニックに最適な場所です。家族連れや友人同士で訪れるのにぴったりのスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 63
+    },
+    {
+      "name": "Roadside Station Shikabe Geyser Park",
+      "category": "Rest Stop",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">18-1 Shikabe, Kayabe District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1402</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 42.0286722,
+        "lng": 140.8305105
+      },
+      "japanese_name": "道の駅しけべ噴泉公園",
+      "description": "道の駅しけべ噴泉公園は、北海道の噴泉が楽しめる休憩スポットです。観光客は温泉や地元の特産品を楽しむことができます。自然に囲まれた場所で、リラックスしたひとときを過ごせます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 64
+    },
+    {
+      "name": "Ofune Site of the Jomon Era",
+      "category": "Historical Landmark",
+      "rating": 4,
+      "address": "<span class=\"street-address\">575-1 Ōfunechō, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-1622</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.957685999999995,
+        "lng": 140.925449
+      },
+      "japanese_name": "大船の縄文時代遺跡",
+      "description": "大船の縄文時代遺跡は、北海道函館に位置する歴史的な名所です。縄文時代の遺構や出土品が展示されており、古代の人々の生活を知ることができます。歴史に興味がある方にとって、貴重な体験ができる場所です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 65
+    },
+    {
+      "name": "Shiryōkaku",
+      "category": "Historical Landmark",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">Kamiyamacho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0831</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.82566,
+        "lng": 140.7706172
+      },
+      "japanese_name": "知量閣",
+      "description": "知量閣は、北海道函館にある歴史的なランドマークです。明治時代に建てられたこの建物は、当時の文化や歴史を感じることができます。観光客にとって、函館の魅力を知るための重要なスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 66
+    },
+    {
+      "name": "Sasanagare Dam",
+      "category": "不明",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">Akagawacho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0804</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.8350357,
+        "lng": 140.7731383
+      },
+      "japanese_name": "笹流ダム",
+      "description": "笹流ダムは、北海道函館市の赤川町に位置する美しいダムです。周囲の自然と調和した景観が魅力で、訪れる人々に癒しを提供します。ハイキングや写真撮影にも適したスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 67
+    },
+    {
+      "name": "もどきの丘",
+      "category": "Tourist Attraction",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">Kikyocho, Hakodate</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">041-0801</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.856187899999995,
+        "lng": 140.7574764
+      },
+      "japanese_name": "もどきの丘",
+      "description": "もどきの丘は、北海道函館に位置する美しい観光地です。自然豊かな景観と共に、訪れる人々に癒しを提供します。四季折々の風景を楽しむことができ、特に春の桜は絶景です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 68
+    },
+    {
+      "name": "Dam Park",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒041-0803</span> <span class=\"region\">北海道</span><span class=\"street-address\">函館市亀田中野町３６３</span>",
+      "location": {
+        "lat": 41.866602799999995,
+        "lng": 140.78395709999998
+      },
+      "japanese_name": "ダムパーク",
+      "description": "ダムパークは北海道函館市に位置する美しい公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。家族連れやカップルに人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 69
+    }
+  ],
+  "広島": [
+    {
+      "name": "Itsukushima Jinja",
+      "category": "Place of Worship",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">1-1 Miyajimachō, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0588</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.295989600000006,
+        "lng": 132.3198285
+      },
+      "japanese_name": "厳島神社",
+      "description": "厳島神社は広島県の宮島に位置する神社で、世界遺産にも登録されています。海上に浮かぶ鳥居が特徴的で、訪れる人々に神聖な雰囲気を提供します。四季折々の美しい景色が楽しめるため、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 70
+    },
+    {
+      "name": "Kintaikyo Bridge",
+      "category": "不明",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1 Chome-2 Iwakuni</span>, <span class=\"region\">Yamaguchi</span> <span class=\"postal-code\">741-0062</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.167595899999995,
+        "lng": 132.17841049999998
+      },
+      "japanese_name": "錦帯橋",
+      "description": "錦帯橋は山口県岩国市にある美しい木造のアーチ橋で、四季折々の風景が楽しめる観光名所です。周辺には歴史的な建物や自然も豊かで、観光客に人気のスポットとなっています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 71
+    },
+    {
+      "name": "Iwakuni Airport",
+      "category": "Airport",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3-chōme-15-1 Asahimachi, Iwakuni</span>, <span class=\"region\">Yamaguchi</span> <span class=\"postal-code\">740-0024</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.158755299999996,
+        "lng": 132.2347069
+      },
+      "japanese_name": "岩国空港",
+      "description": "岩国空港は山口県に位置する空港で、国内外の多くの便が運航されています。周辺には観光スポットも多く、旅行の拠点として便利です。空港内には飲食店やお土産屋も充実しています。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 72
+    },
+    {
+      "name": "Miyajima Public Aquarium",
+      "category": "Aquarium",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒739-0588</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Hatsukaichi, Miyajimachō, １０−３</span>",
+      "location": {
+        "lat": 34.2954961,
+        "lng": 132.3157922
+      },
+      "japanese_name": "宮島水族館",
+      "description": "宮島水族館は、広島県の宮島に位置する人気の水族館です。多様な海洋生物や淡水魚を展示しており、家族連れにも楽しめるスポットです。特に、地元の生物に焦点を当てた展示が特徴です。",
+      "fare": 2000,
+      "staytime": 120,
+      "id": 73
+    },
+    {
+      "name": "Daishoin",
+      "category": "Place of Worship",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">210 Miyajimachō, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0588</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.29204620000001,
+        "lng": 132.3184934
+      },
+      "japanese_name": "大聖院",
+      "description": "大聖院は広島県の宮島にある重要な寺院です。美しい庭園や歴史的な建物が点在し、訪れる人々に静かなひとときを提供します。観光客に人気があり、心を落ち着ける場所として知られています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 74
+    },
+    {
+      "name": "Iwakuni Shirohebi Shrine",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">6-chōme-4-2 Imazumachi, Iwakuni</span>, <span class=\"region\">Yamaguchi</span> <span class=\"postal-code\">740-0017</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.163504599999996,
+        "lng": 132.21264100000002
+      },
+      "japanese_name": "岩国白蛇神社",
+      "description": "岩国白蛇神社は、山口県岩国市にある神社で、白蛇を祀っています。神社は美しい自然に囲まれており、訪れる人々に神秘的な雰囲気を提供します。多くの参拝者が訪れる人気のスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 75
+    },
+    {
+      "name": "Miyajima Ropeway",
+      "category": "不明",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒739-0522</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Hatsukaichi, Miyajimachō, 紅葉谷公園</span>",
+      "location": {
+        "lat": 34.293258699999996,
+        "lng": 132.3267509
+      },
+      "japanese_name": "宮島ロープウェイ",
+      "description": "宮島ロープウェイは、広島県の宮島にある観光名所です。美しい自然と絶景を楽しみながら、ロープウェイで山頂までアクセスできます。特に紅葉の季節には素晴らしい景色が広がります。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 76
+    },
+    {
+      "name": "Itsukushima Shrine",
+      "category": "Place of Worship",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">1-1 Miyajimachō, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0588</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.2960843,
+        "lng": 132.3196726
+      },
+      "japanese_name": "厳島神社",
+      "description": "厳島神社は広島県廿日市市に位置する神社で、日本の三景の一つに数えられています。海上に浮かぶ鳥居と美しい景観が特徴で、多くの観光客が訪れます。文化財としても重要な役割を果たしており、歴史的な価値があります。",
+      "fare": 300,
+      "staytime": 60,
+      "id": 77
+    },
+    {
+      "name": "Iwakuni Castle",
+      "category": "Historical Place",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">3 Chome Yokoyama, Iwakuni</span>, <span class=\"region\">Yamaguchi</span> <span class=\"postal-code\">741-0081</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.175242,
+        "lng": 132.17419759999999
+      },
+      "japanese_name": "岩国城",
+      "description": "岩国城は、山口県岩国市にある歴史的な名所です。美しい天守閣からは周辺の自然や街並みを一望でき、訪れる人々に感動を与えます。城の周囲には桜の木も多く、春には花見スポットとしても人気があります。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 78
+    },
+    {
+      "name": "Pikmin Terrace in Miyajima SA",
+      "category": "Tourist Attraction",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒738-0026</span> <span class=\"region\">広島県</span><span class=\"street-address\">廿日市市上平良７６</span>",
+      "location": {
+        "lat": 34.3656161,
+        "lng": 132.3186412
+      },
+      "japanese_name": "ピクミンテラス（宮島SA）",
+      "description": "ピクミンテラスは、宮島サービスエリアにある観光スポットです。ピクミンのテーマに基づいた魅力的な施設で、家族連れやファンに人気があります。美しい景色を楽しみながら、リラックスした時間を過ごすことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 79
+    },
+    {
+      "name": "Yamato Museum (Kure Maritime Museum)",
+      "category": "Museum",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">5-20 Takaramachi, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0029</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.2411391,
+        "lng": 132.5558555
+      },
+      "japanese_name": "大和ミュージアム（呉市海事歴史科学館）",
+      "description": "大和ミュージアムは、呉市にある海事に関する歴史や科学を展示する博物館です。特に戦艦大和に関する展示が充実しており、訪れる人々に海軍の歴史を深く知る機会を提供しています。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 80
+    },
+    {
+      "name": "Ujina Natural Hot Spring Honoyu",
+      "category": "Public Bath",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">3-chōme-4-34 Ujinahigashi, Minami Ward, Hiroshima</span>, <span class=\"postal-code\">734-0003</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3652802,
+        "lng": 132.47426400000003
+      },
+      "japanese_name": "宇品天然温泉 ほの湯",
+      "description": "宇品天然温泉 ほの湯は広島市南区に位置する公共浴場です。リラックスできる温泉と、心地よい雰囲気が魅力で、多くの人々に愛されています。観光や日常の疲れを癒すために訪れるのに最適な場所です。",
+      "fare": 800,
+      "staytime": 120,
+      "id": 81
+    },
+    {
+      "name": "Momijidani Park",
+      "category": "Park",
+      "rating": 4.4,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒739-0588</span> <span class=\"region\">広島県</span><span class=\"street-address\">廿日市市宮島町紅葉谷</span>",
+      "location": {
+        "lat": 34.2942053,
+        "lng": 132.324065
+      },
+      "japanese_name": "紅葉谷公園",
+      "description": "紅葉谷公園は広島県廿日市市の宮島に位置する美しい公園です。四季折々の自然の景色を楽しむことができ、特に秋の紅葉が有名です。散策やピクニックに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 82
+    },
+    {
+      "name": "Miyajima Omotesandō Shopping Street",
+      "category": "Tourist Attraction",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">535 Miyajimachō, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0588</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.298974699999995,
+        "lng": 132.32183559999999
+      },
+      "japanese_name": "宮島表参道商店街",
+      "description": "宮島表参道商店街は、宮島の入口に位置する賑やかな商店街です。地元の特産品やお土産が豊富に揃っており、食べ歩きにも最適な場所です。観光客に人気のスポットで、宮島観光の際にはぜひ訪れたい場所です。",
+      "fare": 2000,
+      "staytime": 60,
+      "id": 83
+    },
+    {
+      "name": "Kure Portpia Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">3-chōme-2-3 Tennōōhama, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0875</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.290773,
+        "lng": 132.51154599999998
+      },
+      "japanese_name": "呉ポートピアパーク",
+      "description": "呉ポートピアパークは広島県呉市に位置する公園です。美しい海の景色を楽しむことができ、家族連れやカップルに人気のスポットです。さまざまなアクティビティやイベントも開催されており、訪れる人々に楽しい時間を提供しています。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 84
+    },
+    {
+      "name": "Alley Karasukojima",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">8 Showacho, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0027</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.225757,
+        "lng": 132.5493273
+      },
+      "japanese_name": "アレイカラスコジマ",
+      "description": "アレイカラスコジマは広島県呉市にある公園です。自然豊かな環境の中で、リラックスしたり散策したりすることができます。家族連れやカップルに人気のスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 85
+    },
+    {
+      "name": "Haigamine Observatory",
+      "category": "Observation Deck",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">Tochibaracho, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0005</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.269964099999996,
+        "lng": 132.5934406
+      },
+      "japanese_name": "灰ヶ峰展望台",
+      "description": "灰ヶ峰展望台は、広島県呉市に位置する美しい展望台です。ここからは呉市や周辺の自然を一望でき、特に夕日が美しいことで知られています。観光客にとって、リラックスできるスポットとして人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 86
+    },
+    {
+      "name": "Hiroshima Minato Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1 Chome-14 Ujinakaigan, Minami Ward, Hiroshima</span>, <span class=\"postal-code\">734-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.354402199999996,
+        "lng": 132.4558983
+      },
+      "japanese_name": "広島みなと公園",
+      "description": "広島みなと公園は、広島市南区に位置する美しい公園です。海沿いに広がるこの公園では、散策やピクニックを楽しむことができます。周囲の自然とともに、リラックスした時間を過ごすことができます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 87
+    },
+    {
+      "name": "Ujina Pier Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3 Chome-12 Ujinakaigan, Minami Ward, Hiroshima</span>, <span class=\"postal-code\">734-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3531548,
+        "lng": 132.4701083
+      },
+      "japanese_name": "宇品桟橋公園",
+      "description": "宇品桟橋公園は広島市南区に位置する美しい公園です。海に面したロケーションで、散策やピクニックに最適な場所です。家族連れやカップルにも人気があり、リラックスできる環境が魅力です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 88
+    },
+    {
+      "name": "Kaita Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒736-0071</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Aki District, Kaita, Higashikaita, 蟻ヶ原</span>",
+      "location": {
+        "lat": 34.3716961,
+        "lng": 132.5679085
+      },
+      "japanese_name": "Kaita Park",
+      "description": "Kaita Parkは広島県の安芸区に位置する公園です。自然豊かな環境で、散策やピクニックに最適な場所です。家族連れや友人同士での訪問にも適しています。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 89
+    },
+    {
+      "name": "Brush Makers Workshop (Fude-no-sato Kobo)",
+      "category": "Museum",
+      "rating": 4,
+      "address": "<span class=\"street-address\">5-chōme-17-1 Nakamizo, Kumano, Aki District</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">731-4214</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3427711,
+        "lng": 132.5753483
+      },
+      "japanese_name": "筆の里工房",
+      "description": "筆の里工房は、広島県熊野町にある筆作りの体験ができる博物館です。ここでは伝統的な筆の製造過程を学ぶことができ、実際に筆作りを体験することもできます。筆の歴史や文化に触れながら、楽しいひとときを過ごせます。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 90
+    },
+    {
+      "name": "JMSDF Kure base berth",
+      "category": "不明",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">5 Showacho, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0027</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.228068,
+        "lng": 132.551191
+      },
+      "japanese_name": "海上自衛隊呉基地桟橋",
+      "description": "海上自衛隊呉基地桟橋は、広島県呉市に位置する観光スポットです。ここでは自衛隊の艦船を間近に見ることができ、海上自衛隊の歴史や活動について学ぶことができます。特に艦船の見学は人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 91
+    },
+    {
+      "name": "Ryuozan General Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">Kurosecho Maruyama, Higashihiroshima</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-2612</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.329881799999995,
+        "lng": 132.6782769
+      },
+      "japanese_name": "竜王山総合公園",
+      "description": "竜王山総合公園は広島県東広島市に位置する美しい公園です。自然に囲まれた環境で、散策やピクニックに最適な場所です。家族連れや友人同士で楽しむことができるアクティビティも豊富です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 92
+    },
+    {
+      "name": "Irifuneyama Memorial Museum",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒737-0028</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Kure, Saiwaichō, 4−６ 呉市入船山記念館</span>",
+      "location": {
+        "lat": 34.240423199999995,
+        "lng": 132.56391729999999
+      },
+      "japanese_name": "入船山記念館",
+      "description": "入船山記念館は広島県呉市にある博物館で、地域の歴史や文化を学ぶことができます。美しい庭園も併設されており、訪れる人々に静かなひとときを提供しています。",
+      "fare": 500,
+      "staytime": 90,
+      "id": 93
+    },
+    {
+      "name": "Ondo Long Bridge.",
+      "category": "不明",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">8 Chome-12 Kegoya, Kure</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">737-0012</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.1948337,
+        "lng": 132.5373854
+      },
+      "japanese_name": "温土長橋",
+      "description": "温土長橋は広島県呉市に位置する美しい橋で、周囲の自然と調和した景観が魅力です。観光客は橋からの眺望を楽しみながら、散策や写真撮影を楽しむことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 94
+    },
+    {
+      "name": "Hiroshima Botanical Garden",
+      "category": "Botanical Garden",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">3-chōme-495 Kurashige, Saeki Ward, Hiroshima</span>, <span class=\"postal-code\">731-5156</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.390372899999996,
+        "lng": 132.3472182
+      },
+      "japanese_name": "広島植物園",
+      "description": "広島植物園は、広島市の佐伯区に位置する美しい植物園です。多様な植物や花々が楽しめる場所で、自然を満喫することができます。家族連れやカップルに人気のスポットです。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 95
+    },
+    {
+      "name": "Hokokujinja (Senjokaku Pavilion)",
+      "category": "Place of Worship",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1-1 Miyajimachō, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0588</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.2973206,
+        "lng": 132.32027870000002
+      },
+      "japanese_name": "厳島神社 (千丈閣)",
+      "description": "厳島神社の千丈閣は、広島県廿日市市に位置する重要な神社です。美しい景観と歴史的な建築が魅力で、多くの観光客が訪れます。特に海に浮かぶ神社として知られ、訪れる人々に神聖な雰囲気を提供しています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 96
+    },
+    {
+      "name": "Atomic Bomb Dome",
+      "category": "不明",
+      "rating": 4.7,
+      "address": "<span class=\"street-address\">1-chōme-1-10 Ōtemachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0051</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.395483,
+        "lng": 132.453592
+      },
+      "japanese_name": "原爆ドーム",
+      "description": "原爆ドームは広島にある歴史的な建造物で、1945年の原爆投下の際に被害を受けた建物です。現在は世界遺産に登録されており、平和の象徴として多くの観光客が訪れます。広島の歴史を学ぶための重要なスポットです。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 97
+    },
+    {
+      "name": "Hiroshima Peace Memorial Museum",
+      "category": "Museum",
+      "rating": 4.7,
+      "address": "<span class=\"street-address\">1-2 Nakajimachō, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0811</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3915027,
+        "lng": 132.45315779999999
+      },
+      "japanese_name": "広島平和記念資料館",
+      "description": "広島平和記念資料館は、原爆の悲劇を伝えるために設立された博物館です。多くの展示物や資料を通じて、戦争の恐ろしさと平和の重要性を学ぶことができます。訪れることで、広島の歴史と平和への願いを感じることができる場所です。",
+      "fare": 200,
+      "staytime": 120,
+      "id": 98
+    },
+    {
+      "name": "Hiroshima Castle",
+      "category": "Historical Place",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">21-1 Motomachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.402745599999996,
+        "lng": 132.4591055
+      },
+      "japanese_name": "広島城",
+      "description": "広島城は日本の歴史的な名所で、広島市の中心に位置しています。美しい天守閣と周囲の庭園が魅力で、訪れる人々に歴史を感じさせます。広島の歴史を学ぶには最適な場所です。",
+      "fare": 600,
+      "staytime": 120,
+      "id": 99
+    },
+    {
+      "name": "Peace Memorial Park - Hiroshima",
+      "category": "Park",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">1 Nakajimacho, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0811</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3926867,
+        "lng": 132.4522012
+      },
+      "japanese_name": "平和記念公園",
+      "description": "平和記念公園は広島市に位置し、原爆の悲劇を忘れないための場所です。この公園には平和記念資料館や原爆ドームがあり、多くの観光客が訪れます。静かな環境の中で、平和の大切さを考えることができます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 100
+    },
+    {
+      "name": "Okonomimura",
+      "category": "Japanese Restaurant",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-13 Shintenchi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0034</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3914342,
+        "lng": 132.4619014
+      },
+      "japanese_name": "お好み村",
+      "description": "お好み村は広島市にあるお好み焼き専門のレストラン街です。多くの店舗が集まり、様々なお好み焼きを楽しむことができます。観光客にも人気のスポットで、地元の味を堪能できます。",
+      "fare": 1200,
+      "staytime": 60,
+      "id": 101
+    },
+    {
+      "name": "Hiroshima Prefectural Art Museum",
+      "category": "Museum",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">2-22 Kaminoborichō, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0014</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.399833199999996,
+        "lng": 132.4662606
+      },
+      "japanese_name": "広島県立美術館",
+      "description": "広島県立美術館は、広島市に位置する美術館であり、さまざまな芸術作品を展示しています。特に日本の近代美術に焦点を当てており、訪れる人々に豊かな文化体験を提供しています。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 102
+    },
+    {
+      "name": "Shukkeien Garden",
+      "category": "Garden",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">2-11 Kaminoborichō, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0014</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4004834,
+        "lng": 132.4677207
+      },
+      "japanese_name": "縮景園",
+      "description": "縮景園は広島市にある美しい日本庭園です。四季折々の自然を楽しむことができ、静かな雰囲気の中でリラックスできます。庭園内には池や茶室もあり、散策に最適な場所です。",
+      "fare": 250,
+      "staytime": 120,
+      "id": 103
+    },
+    {
+      "name": "Hiroshima Orizuru Tower",
+      "category": "Tourist Attraction",
+      "rating": 4,
+      "address": "<span class=\"street-address\">1-chōme-2-1 Ōtemachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0051</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3956868,
+        "lng": 132.4547167
+      },
+      "japanese_name": "広島おりづるタワー",
+      "description": "広島おりづるタワーは、広島市の中心部に位置する観光名所です。展望台からは美しい広島市街や平和記念公園を一望できます。また、タワー内にはおりづるに関する展示やカフェもあり、訪れる人々にとって魅力的なスポットです。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 104
+    },
+    {
+      "name": "Hiroshima City Museum of Contemporary Art",
+      "category": "Museum",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-1 Hijiyamakōen, Minami Ward, Hiroshima</span>, <span class=\"postal-code\">732-0815</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3861254,
+        "lng": 132.4731744
+      },
+      "japanese_name": "広島市現代美術館",
+      "description": "広島市現代美術館は、現代アートを中心に展示する美術館です。多様なアート作品を鑑賞できるほか、特別展やイベントも開催されています。アートに興味がある方には特におすすめのスポットです。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 105
+    },
+    {
+      "name": "Hiroshima Toshogu Shrine",
+      "category": "Place of Worship",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-1-18 Futabanosato, Higashi Ward, Hiroshima</span>, <span class=\"postal-code\">732-0057</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.403500799999996,
+        "lng": 132.4756496
+      },
+      "japanese_name": "広島東照宮",
+      "description": "広島東照宮は、広島市の東区に位置する神社である。徳川家康を祀るために建てられ、歴史的な価値がある。美しい庭園や社殿があり、静かな雰囲気の中で参拝できる。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 106
+    },
+    {
+      "name": "Senogawa Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">Kamisenocho, Aki Ward, Hiroshima</span>, <span class=\"postal-code\">733-0803</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4294576,
+        "lng": 132.63766529999998
+      },
+      "japanese_name": "瀬野川公園",
+      "description": "瀬野川公園は広島市の安芸区に位置する美しい公園です。自然豊かな環境で、散策やピクニックに最適な場所です。家族連れや友人同士で訪れることができ、リラックスした時間を過ごせます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 107
+    },
+    {
+      "name": "Kagamiyama Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">2 Chome Kagamiyama, Higashihiroshima</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0046</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4065156,
+        "lng": 132.7282898
+      },
+      "japanese_name": "鏡山公園",
+      "description": "鏡山公園は広島県東広島市に位置する美しい公園です。自然豊かな環境で、散策やピクニックを楽しむことができます。四季折々の景色が楽しめるため、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 108
+    },
+    {
+      "name": "Mitaki-dera",
+      "category": "Place of Worship",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">411 Mitakiyama, Nishi Ward, Hiroshima</span>, <span class=\"postal-code\">733-0805</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4201433,
+        "lng": 132.43840889999998
+      },
+      "japanese_name": "三滝寺",
+      "description": "三滝寺は広島市西区に位置する美しい寺院です。自然に囲まれた静かな場所で、訪れる人々に安らぎを与えます。歴史的な建物や庭園があり、四季折々の景色を楽しむことができます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 109
+    },
+    {
+      "name": "Numaji Transportation Museum",
+      "category": "Museum",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2-chōme-12-2 Chōrakuji, Asaminami Ward, Hiroshima</span>, <span class=\"postal-code\">731-0143</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.470825999999995,
+        "lng": 132.4285645
+      },
+      "japanese_name": "沼田交通博物館",
+      "description": "沼田交通博物館は、広島市にある交通に関する博物館です。様々な交通手段やその歴史を学ぶことができ、子供から大人まで楽しめる施設です。展示物や体験コーナーも充実しており、家族連れにおすすめです。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 110
+    },
+    {
+      "name": "Mominoki Shinrin Koen (Fir forest park)",
+      "category": "Playground",
+      "rating": 4,
+      "address": "<span class=\"street-address\">1593-75 Yoshiwa, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">738-0301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.482794399999996,
+        "lng": 132.1764091
+      },
+      "japanese_name": "もみのき森林公園",
+      "description": "もみのき森林公園は、広島県廿日市に位置する遊び場です。自然に囲まれた中で、家族や友人と一緒に楽しむことができます。四季折々の美しい風景を楽しむことができ、リラックスしたひとときを過ごせます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 111
+    },
+    {
+      "name": "Ryuo Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">Ryuocho, Nishi Ward, Hiroshima</span>, <span class=\"postal-code\">733-0803</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.413772,
+        "lng": 132.43728099999998
+      },
+      "japanese_name": "竜王公園",
+      "description": "竜王公園は広島市西区に位置する美しい公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。家族連れや友人とのレクリエーションに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 112
+    },
+    {
+      "name": "Hayatani Shrine",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">308-1 Kamihera, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">738-0026</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3592898,
+        "lng": 132.30848079999998
+      },
+      "japanese_name": "早谷神社",
+      "description": "早谷神社は広島県廿日市市に位置する神社で、地元の人々に親しまれています。美しい自然に囲まれたこの神社は、訪れる人々に静けさと安らぎを提供します。歴史ある建物や神聖な雰囲気を楽しむことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 113
+    },
+    {
+      "name": "Forest Adventure Hiroshima",
+      "category": "Amusement Center",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1593-75 Yoshiwa, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">738-0301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4811985,
+        "lng": 132.1740907
+      },
+      "japanese_name": "フォレストアドベンチャー広島",
+      "description": "フォレストアドベンチャー広島は、広島県廿日市にあるアミューズメントセンターです。自然の中でアスレチックやジップラインを楽しむことができ、家族や友人と一緒にアクティブな時間を過ごせます。",
+      "fare": 3000,
+      "staytime": 180,
+      "id": 114
+    },
+    {
+      "name": "Ebayama Museum of Meteorology",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-40-1 Ebaminami, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0835</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3661941,
+        "lng": 132.4350382
+      },
+      "japanese_name": "江波山気象館",
+      "description": "江波山気象館は、気象に関するさまざまな展示が行われている博物館です。気象の仕組みや観測機器について学ぶことができ、家族連れにも人気のスポットです。広島の自然や気象について深く理解することができます。",
+      "fare": 500,
+      "staytime": 60,
+      "id": 115
+    },
+    {
+      "name": "HIROSHIMA GATE PARK",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">5-25 Motomachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3970124,
+        "lng": 132.45497229999998
+      },
+      "japanese_name": "広島ゲートパーク",
+      "description": "広島ゲートパークは広島市中区にある美しい公園です。自然に囲まれた静かな環境で、散策やリラックスに最適な場所です。家族連れや観光客が訪れ、地元の人々にも愛されています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 116
+    },
+    {
+      "name": "Shintenchi Park",
+      "category": "Park",
+      "rating": 3.3,
+      "address": "<span class=\"street-address\">3-13 Nagarekawachō, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0028</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.391046599999996,
+        "lng": 132.4634594
+      },
+      "japanese_name": "新天地公園",
+      "description": "新天地公園は広島市中区に位置する公園で、自然を楽しむことができる場所です。周囲には飲食店やショップもあり、観光客にとって便利なスポットです。リラックスしたいときに訪れるのに最適です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 117
+    },
+    {
+      "name": "Aki Ward Sports Center (Monday and Friday)",
+      "category": "Sports Activity Location",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">2-chōme-3-1 Nakanohigashi, Aki Ward, Hiroshima</span>, <span class=\"postal-code\">739-0323</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.391188,
+        "lng": 132.565926
+      },
+      "japanese_name": "秋区スポーツセンター（月曜日と金曜日）",
+      "description": "秋区スポーツセンターは、広島県の秋区に位置するスポーツ活動の場所です。様々なスポーツ施設が整っており、地元の人々や観光客が利用しています。特に月曜日と金曜日に開催されるイベントが人気です。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 118
+    },
+    {
+      "name": "Uddowanbijutsukan",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">4278 Yoshiwa, Hatsukaichi</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">738-0301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.498796399999996,
+        "lng": 132.1439057
+      },
+      "japanese_name": "Uddowanbijutsukan",
+      "description": "Uddowanbijutsukanは、広島県廿日市に位置する美術館です。多様なアート作品が展示されており、訪れる人々に独自の文化体験を提供します。美しい環境の中で、芸術を楽しむことができます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 119
+    },
+    {
+      "name": "Saeki Sports Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒731-5100</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Saeki Ward, 五日市町保井田３５０−３</span>",
+      "location": {
+        "lat": 34.398092,
+        "lng": 132.3403246
+      },
+      "japanese_name": "佐伯スポーツ公園",
+      "description": "佐伯スポーツ公園は広島県に位置する公園です。スポーツ施設が充実しており、家族連れや友人同士で楽しむことができます。自然に囲まれた環境で、リラックスした時間を過ごせる場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 120
+    },
+    {
+      "name": "湯来つり堀",
+      "category": "Fishing Pond",
+      "rating": 4.4,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒738-0722</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Saeki Ward, 湯来町菅沢８４９−１</span>",
+      "location": {
+        "lat": 34.484215899999995,
+        "lng": 132.26930729999998
+      },
+      "japanese_name": "湯来つり堀",
+      "description": "湯来つり堀は広島県の湯来町に位置する釣り堀です。自然に囲まれた環境で、家族や友人と一緒に釣りを楽しむことができます。初心者から上級者まで楽しめる施設が整っています。",
+      "fare": 3000,
+      "staytime": 120,
+      "id": 121
+    },
+    {
+      "name": "Tsutsuga Giant Ginkgo",
+      "category": "Historical Landmark",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">94 Kamitsutsuga, Akiōta, Yamagata District</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">731-3701</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.558554799999996,
+        "lng": 132.2433806
+      },
+      "japanese_name": "津津ヶ丘の大イチョウ",
+      "description": "津津ヶ丘の大イチョウは広島県の秋尾田に位置する歴史的なランドマークです。この巨大なイチョウは、地域のシンボルとして知られ、訪れる人々に感動を与えています。四季折々の美しい景色を楽しむことができる場所でもあります。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 122
+    },
+    {
+      "name": "Core House Yunoyama",
+      "category": "Public Bath",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">４４３番地 Yukichō Ōaza Wada, Saeki Ward, Hiroshima</span>, <span class=\"postal-code\">738-0601</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4969572,
+        "lng": 132.2842578
+      },
+      "japanese_name": "コアハウス湯の山",
+      "description": "コアハウス湯の山は、広島県の佐伯区に位置する公共浴場です。温泉の魅力を楽しむことができ、リラックスしたひとときを過ごせます。多様な浴槽があり、訪れる人々に癒しを提供しています。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 123
+    },
+    {
+      "name": "花みどり公園",
+      "category": "Park",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">Kuchi Asacho, Asakita Ward, Hiroshima</span>, <span class=\"postal-code\">731-3362</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5109946,
+        "lng": 132.4149588
+      },
+      "japanese_name": "花みどり公園",
+      "description": "花みどり公園は広島市の安佐北区に位置する美しい公園です。四季折々の花々が楽しめる場所で、散策やピクニックに最適です。家族連れやカップルにも人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 124
+    },
+    {
+      "name": "Yasuno Hananoeki Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">554 Ana, 安芸太田町 Akiōta, Yamagata District</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">731-3411</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5541602,
+        "lng": 132.3805018
+      },
+      "japanese_name": "安野花の駅公園",
+      "description": "安野花の駅公園は広島県安芸太田町に位置する美しい公園です。自然豊かな環境で、四季折々の花々を楽しむことができます。家族連れや友人同士でのピクニックにも最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 125
+    },
+    {
+      "name": "Hiroshima Museum of Art",
+      "category": "Museum",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">3-2 Motomachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.398696199999996,
+        "lng": 132.4581124
+      },
+      "japanese_name": "広島美術館",
+      "description": "広島美術館は、広島市に位置する美術館で、国内外の優れた美術作品を展示しています。特に近代美術や日本画のコレクションが充実しており、訪れる人々に芸術の魅力を伝えています。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 126
+    },
+    {
+      "name": "5-Days Children's Cultural Science Museum",
+      "category": "Museum",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">5-83 Motomachi, Naka Ward, Hiroshima</span>, <span class=\"postal-code\">730-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.3985603,
+        "lng": 132.4537796
+      },
+      "japanese_name": "5-Days Children's Cultural Science Museum",
+      "description": "5-Days Children's Cultural Science Museumは、子供たちのための科学と文化をテーマにした博物館です。楽しい展示や体験型のアクティビティが豊富で、家族連れに人気があります。子供たちが学びながら楽しめる場所です。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 127
+    },
+    {
+      "name": "Hiroshima City Forest Park multi-purpose open space",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒732-0036</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Higashi Ward, Fukudachō, 字藤ケ丸10173番地</span>",
+      "location": {
+        "lat": 34.439622299999996,
+        "lng": 132.5532215
+      },
+      "japanese_name": "広島市森林公園多目的広場",
+      "description": "広島市森林公園多目的広場は、自然に囲まれた美しい公園です。様々なアクティビティが楽しめるスペースがあり、家族連れや友人同士での訪問に最適です。四季折々の風景を楽しみながら、リラックスした時間を過ごせます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 128
+    },
+    {
+      "name": "Hiroshima City Forest Park Insectarium",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒732-0036</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Higashi Ward, Fukudachō</span>, 藤ヶ丸１０１７３",
+      "location": {
+        "lat": 34.4413905,
+        "lng": 132.55413819999998
+      },
+      "japanese_name": "広島市森林公園昆虫館",
+      "description": "広島市森林公園昆虫館は、様々な昆虫を展示している施設です。自然と昆虫について学ぶことができ、家族連れにも人気があります。広々とした公園内で、昆虫の世界を楽しむことができます。",
+      "fare": 500,
+      "staytime": 90,
+      "id": 129
+    },
+    {
+      "name": "Ikoinomori Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">941-17 寺家 西条町 Higashihiroshima</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-0041</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4497145,
+        "lng": 132.73793720000003
+      },
+      "japanese_name": "いこいの森公園",
+      "description": "いこいの森公園は、広島県東広島市に位置する美しい公園です。自然豊かな環境で、散策やピクニックに最適な場所です。家族連れや友人同士で訪れるのにぴったりのスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 130
+    },
+    {
+      "name": "Terasako Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-9-1 Magame, Asakita Ward, Hiroshima</span>, <span class=\"postal-code\">739-1741</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.479792499999995,
+        "lng": 132.5189126
+      },
+      "japanese_name": "寺迫公園",
+      "description": "寺迫公園は広島市安佐北区に位置する公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。家族連れや友人と訪れるのに適した場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 131
+    },
+    {
+      "name": "Terayama Park",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">4-chōme-3-18 Kabehigashi, Asakita Ward, Hiroshima</span>, <span class=\"postal-code\">731-0222</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5145498,
+        "lng": 132.517087
+      },
+      "japanese_name": "寺山公園",
+      "description": "寺山公園は広島市にある美しい公園で、自然を楽しむことができます。散策やピクニックに最適で、家族連れやカップルに人気のスポットです。四季折々の風景を楽しむことができ、リラックスしたひとときを過ごせます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 132
+    },
+    {
+      "name": "Noboritate Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">Fukutomicho Kuba, Higashihiroshima</span>, <span class=\"region\">Hiroshima</span> <span class=\"postal-code\">739-2303</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5402976,
+        "lng": 132.7729077
+      },
+      "japanese_name": "登り立て公園",
+      "description": "登り立て公園は、広島県東広島市に位置する自然豊かな公園です。美しい景色を楽しみながら散策できる場所で、家族連れや友人同士でのピクニックにも最適です。四季折々の自然を感じることができるため、訪れる価値があります。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 133
+    },
+    {
+      "name": "Yagi Bairin Park",
+      "category": "Park",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">1 Chome-22 Yagi, Asaminami Ward, Hiroshima</span>, <span class=\"postal-code\">731-0101</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4749853,
+        "lng": 132.492494
+      },
+      "japanese_name": "八木梅林公園",
+      "description": "八木梅林公園は広島市のあさみなみ区に位置する美しい公園です。梅の花が咲く季節には多くの観光客が訪れ、自然を楽しむことができます。散策やピクニックに最適な場所です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 134
+    },
+    {
+      "name": "Midorizaka Central Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">4-chōme-1-1 Senonishi, Aki Ward, Hiroshima</span>, <span class=\"postal-code\">739-0313</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.4290962,
+        "lng": 132.59033420000003
+      },
+      "japanese_name": "緑坂中央公園",
+      "description": "緑坂中央公園は広島市安芸区に位置する美しい公園です。自然豊かな環境で、散策やピクニックを楽しむことができます。家族連れや友人との憩いの場として最適です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 135
+    },
+    {
+      "name": "Kannokurayama Park",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒739-1301</span> <span class=\"region\">Hiroshima</span>, <span class=\"street-address\">Akitakata, Asakita Ward, Shirakichō, Ibara−・</span> 向原町有留",
+      "location": {
+        "lat": 34.5748952,
+        "lng": 132.68845919999998
+      },
+      "japanese_name": "神ノ倉山公園",
+      "description": "神ノ倉山公園は広島県に位置する美しい公園です。自然に囲まれた環境で、散策やピクニックに最適な場所です。特に春には桜が見事に咲き、多くの訪問者が楽しんでいます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 136
+    }
+  ],
+  "神戸": [
+    {
+      "name": "Awaji Highway Oasis",
+      "category": "Shopping Mall",
+      "rating": 4,
+      "address": "<span class=\"street-address\">大林-2674-3 Iwaya, Awaji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">656-2401</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.57943770000001,
+        "lng": 135.0134721
+      },
+      "japanese_name": "淡路ハイウェイオアシス",
+      "description": "淡路ハイウェイオアシスは、淡路島にあるショッピングモールです。地元の特産品やお土産が豊富に揃い、観光の合間に立ち寄るのに最適な場所です。家族連れや友人同士で楽しめる施設も充実しています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 137
+    },
+    {
+      "name": "Hyogo Prefecture Awaji Hanasajiki",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2805-7 Kusumoto, Awaji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">656-2301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5535521,
+        "lng": 134.9780291
+      },
+      "japanese_name": "兵庫県淡路花さじき",
+      "description": "兵庫県淡路花さじきは、美しい花々が広がる公園です。四季折々の花を楽しむことができ、特に春には色とりどりの花が咲き誇ります。家族や友人と共にリラックスした時間を過ごせる場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 138
+    },
+    {
+      "name": "Suma Seaside Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒654-0049</span> <span class=\"region\">Hyogo</span>, <span class=\"street-address\">Kobe, Suma Ward, Wakamiyachō, 1-chōme−３−１</span>",
+      "location": {
+        "lat": 34.6434567,
+        "lng": 135.12494809999998
+      },
+      "japanese_name": "須磨海浜公園",
+      "description": "須磨海浜公園は兵庫県神戸市須磨区に位置する美しい公園です。海に面した広大な敷地には、緑豊かな芝生や遊具、ビーチがあり、家族連れやカップルに人気のスポットです。自然を楽しみながら、リラックスした時間を過ごすことができます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 139
+    },
+    {
+      "name": "Akashi Kaikyo National Government Park",
+      "category": "National Park",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">8-10 Yumebutai, Awaji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">656-2306</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.564167999999995,
+        "lng": 135.01211379999998
+      },
+      "japanese_name": "明石海峡国立公園",
+      "description": "明石海峡国立公園は、淡路島に位置する美しい国立公園です。海と自然が調和した景観が魅力で、ハイキングやピクニックに最適なスポットです。特に、明石海峡大橋の眺望は圧巻です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 140
+    },
+    {
+      "name": "Akashi-Kaikyo Bridge",
+      "category": "不明",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">4 Higashimaikocho, Tarumi-ku, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">655-0047</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6174683,
+        "lng": 135.02167509999998
+      },
+      "japanese_name": "明石海峡大橋",
+      "description": "明石海峡大橋は、神戸市にある世界最長の吊り橋です。美しい景観と、周辺の自然を楽しむことができます。特に夜景は素晴らしく、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 141
+    },
+    {
+      "name": "Naruto x Boruto park Nijigen no mori",
+      "category": "Amusement Center",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">2425番2号 Kusumoto, Awaji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">656-2301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.575579,
+        "lng": 135.0046027
+      },
+      "japanese_name": "ナルト x ボルトパーク 二次元の森",
+      "description": "ナルト x ボルトパーク 二次元の森は、人気アニメ「ナルト」と「ボルト」をテーマにしたアミューズメントセンターです。アトラクションやイベントが充実しており、ファンにはたまらないスポットとなっています。家族や友人と一緒に楽しむことができる場所です。",
+      "fare": 3000,
+      "staytime": 180,
+      "id": 142
+    },
+    {
+      "name": "Hello Kitty Smile",
+      "category": "Amusement Center",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">985-1 Nojimahikinoura, Awaji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">656-1721</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.567157099999996,
+        "lng": 134.9525045
+      },
+      "japanese_name": "ハローキティスマイル",
+      "description": "ハローキティスマイルは、淡路にあるアミューズメントセンターです。ここでは、ハローキティの世界観を楽しむことができ、家族連れに人気のスポットです。さまざまなアトラクションやショップがあり、楽しい時間を過ごせます。",
+      "fare": 3000,
+      "staytime": 120,
+      "id": 143
+    },
+    {
+      "name": "Hyogo Prefectural Maiko Park",
+      "category": "Park",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">4-2051 Higashimaikochō, Tarumi-ku, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">655-0047</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.630769799999996,
+        "lng": 135.0343175
+      },
+      "japanese_name": "兵庫県立舞子公園",
+      "description": "兵庫県立舞子公園は、神戸市垂水区に位置する美しい公園です。広々とした緑地や花壇があり、家族連れやカップルに人気のスポットです。公園からは明石海峡大橋の素晴らしい景色も楽しめます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 144
+    },
+    {
+      "name": "Suma Rikyu Park",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-1 Higashisuma, Suma Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">654-0018</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6532737,
+        "lng": 135.1177624
+      },
+      "japanese_name": "須磨離宮公園",
+      "description": "須磨離宮公園は、神戸市須磨区にある広大な公園です。美しい庭園や池があり、四季折々の花々を楽しむことができます。家族連れや観光客にとって、リラックスできる場所です。",
+      "fare": 450,
+      "staytime": 120,
+      "id": 145
+    },
+    {
+      "name": "Kobe Sports Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">Midoridai, Suma Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">654-0163</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6796727,
+        "lng": 135.0777612
+      },
+      "japanese_name": "神戸スポーツパーク",
+      "description": "神戸スポーツパークは、スポーツやレクリエーションを楽しむための広大な公園です。様々な施設が整備されており、家族や友人と一緒にアクティブな時間を過ごすことができます。自然に囲まれた環境でリフレッシュするのに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 146
+    },
+    {
+      "name": "Kobe Animal Kingdom",
+      "category": "Zoo",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">7-chōme-1-9 Minatojima Minamimachi, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0047</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6546416,
+        "lng": 135.2225468
+      },
+      "japanese_name": "神戸動物王国",
+      "description": "神戸動物王国は、動物たちと触れ合える体験型の動物園です。多様な動物たちが自然な環境で飼育されており、訪れる人々は動物との距離が近く、特別な体験ができます。家族連れや動物好きには特におすすめのスポットです。",
+      "fare": 2500,
+      "staytime": 120,
+      "id": 147
+    },
+    {
+      "name": "Kōbe Anpanman Children’s Museum & Mall",
+      "category": "Museum",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-chōme-6-2 Higashikawasakichō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6785235,
+        "lng": 135.1848484
+      },
+      "japanese_name": "神戸アンパンマンこどもミュージアム＆モール",
+      "description": "神戸アンパンマンこどもミュージアム＆モールは、子供たちに大人気のアンパンマンをテーマにしたミュージアムです。楽しいアトラクションや展示があり、家族で楽しめる場所です。子供たちがアンパンマンの世界に浸ることができます。",
+      "fare": 1500,
+      "staytime": 120,
+      "id": 148
+    },
+    {
+      "name": "Kobe Harborland",
+      "category": "不明",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1 Chome-3 Higashikawasakicho, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6788063,
+        "lng": 135.1805729
+      },
+      "japanese_name": "神戸ハーバーランド",
+      "description": "神戸ハーバーランドは、神戸市の中心部に位置する観光スポットです。美しい港の景色を楽しむことができ、ショッピングや飲食、アミューズメントが充実しています。家族や友人と一緒に楽しむことができる場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 149
+    },
+    {
+      "name": "BE KOBE",
+      "category": "不明",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2 Hatobacho, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0042</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6812785,
+        "lng": 135.1892455
+      },
+      "japanese_name": "BE KOBE",
+      "description": "BE KOBEは神戸のシンボル的な観光スポットで、神戸の美しい景色を楽しむことができます。訪れる人々はここで写真を撮ったり、神戸の魅力を感じたりすることができます。特に夜景が美しい場所として知られています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 150
+    },
+    {
+      "name": "átoa",
+      "category": "Aquarium",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">7-2 Shinkōchō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0041</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.683222199999996,
+        "lng": 135.1936194
+      },
+      "japanese_name": "アトア",
+      "description": "アトアは神戸にある水族館で、多種多様な海の生物を展示しています。家族連れやカップルに人気のスポットで、楽しい時間を過ごすことができます。美しい水中の世界を楽しみながら、学びの体験もできます。",
+      "fare": 2000,
+      "staytime": 120,
+      "id": 151
+    },
+    {
+      "name": "Kobe Port Tower",
+      "category": "Observation Deck",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-5 Hatobachō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0042</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.682629999999996,
+        "lng": 135.1866995
+      },
+      "japanese_name": "神戸ポートタワー",
+      "description": "神戸ポートタワーは、神戸市の象徴的な観光地であり、素晴らしい展望を提供する展望台です。タワーの高さは108メートルで、神戸の美しい景色を一望できます。夜景も非常に魅力的で、多くの観光客が訪れます。",
+      "fare": 900,
+      "staytime": 60,
+      "id": 152
+    },
+    {
+      "name": "Harborland Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-chōme-51-27 Higashikawasakichō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0044</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6771354,
+        "lng": 135.1818705
+      },
+      "japanese_name": "ハーバーランドパーク",
+      "description": "ハーバーランドパークは神戸市にある美しい公園で、海を望む素晴らしい景色が楽しめる場所です。散策やピクニックに最適で、家族連れやカップルにも人気があります。周辺にはショッピングや飲食店も充実しています。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 153
+    },
+    {
+      "name": "Bando Kobe Science Museum",
+      "category": "Museum",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">7-chōme-7-6 Minatojima Nakamachi, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0046</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6658629,
+        "lng": 135.218482
+      },
+      "japanese_name": "バンド神戸科学館",
+      "description": "バンド神戸科学館は、科学と技術をテーマにした楽しい体験ができる博物館です。子どもから大人まで楽しめる展示や実験があり、家族連れにも人気のスポットです。最新の科学技術に触れることができる貴重な場所です。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 154
+    },
+    {
+      "name": "Kobe Maritime Museum",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-2 Hatobachō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0042</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6826973,
+        "lng": 135.18831799999998
+      },
+      "japanese_name": "神戸海洋博物館",
+      "description": "神戸海洋博物館は、神戸の港に位置する博物館で、海洋に関するさまざまな展示が行われています。船舶の歴史や海洋文化について学ぶことができ、家族連れにも人気のスポットです。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 155
+    },
+    {
+      "name": "Universal Studios Japan",
+      "category": "Amusement Center",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">2-chōme-1-33 Sakurajima, Konohana Ward, Osaka</span>, <span class=\"postal-code\">554-0031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6656768,
+        "lng": 135.4323185
+      },
+      "japanese_name": "ユニバーサル・スタジオ・ジャパン",
+      "description": "ユニバーサル・スタジオ・ジャパンは、大阪に位置する人気のテーマパークです。映画をテーマにしたアトラクションやショーが楽しめ、家族や友人と一緒に素晴らしい体験ができます。",
+      "fare": 8000,
+      "staytime": 360,
+      "id": 156
+    },
+    {
+      "name": "Osaka Aquarium Kaiyukan",
+      "category": "Aquarium",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1-chōme-1-10 Kaigandōri, Minato Ward, Osaka</span>, <span class=\"postal-code\">552-0022</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6545182,
+        "lng": 135.4289645
+      },
+      "japanese_name": "海遊館",
+      "description": "海遊館は大阪にある日本最大級の水族館で、多種多様な海洋生物を展示しています。特に大きなジンベエザメが泳ぐ大水槽は圧巻です。家族連れや観光客に人気のスポットで、楽しい体験ができます。",
+      "fare": 2400,
+      "staytime": 120,
+      "id": 157
+    },
+    {
+      "name": "Sumiyoshi Taisha",
+      "category": "Place of Worship",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">2-chōme-9-89 Sumiyoshi, Sumiyoshi Ward, Osaka</span>, <span class=\"postal-code\">558-0045</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6123945,
+        "lng": 135.4937612
+      },
+      "japanese_name": "住吉大社",
+      "description": "住吉大社は大阪にある歴史的な神社で、日本の神道の聖地の一つです。美しい社殿や庭園があり、訪れる人々に静かな雰囲気を提供します。特に初詣や結婚式の場として人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 158
+    },
+    {
+      "name": "J-GREEN SAKAI",
+      "category": "Sports Complex",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">１４５番地 Chikkōyawatamachi, Sakai Ward, Sakai</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">590-0901</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6041308,
+        "lng": 135.44412590000002
+      },
+      "japanese_name": "J-GREEN SAKAI",
+      "description": "J-GREEN SAKAIは、大阪府堺市に位置するスポーツ複合施設です。多様なスポーツを楽しむことができ、特にサッカーや陸上競技に適した施設が整っています。家族や友人と一緒にアクティブな時間を過ごすのに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 159
+    },
+    {
+      "name": "Tempozan Ferris Wheel",
+      "category": "Ferris wheel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1-chōme-1-10 Kaigandōri, Minato Ward, Osaka</span>, <span class=\"postal-code\">552-0022</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6562686,
+        "lng": 135.4309659
+      },
+      "japanese_name": "天保山大観覧車",
+      "description": "天保山大観覧車は、大阪の港区に位置する観光名所で、高さ112.5メートルの大きな観覧車です。美しい大阪湾の景色を一望できるため、観光客に人気があります。夜にはライトアップされ、幻想的な雰囲気を楽しむことができます。",
+      "fare": 800,
+      "staytime": 30,
+      "id": 160
+    },
+    {
+      "name": "Fenice Sacay (Sakai Performing Arts Center)",
+      "category": "Concert Hall",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-chōme-1-1 Okinabashichō, Sakai Ward, Sakai</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">590-0061</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5721621,
+        "lng": 135.4795384
+      },
+      "japanese_name": "フェニーチェ堺（堺市文化会館）",
+      "description": "フェニーチェ堺は、堺市にあるコンサートホールで、様々な音楽イベントやパフォーマンスが行われています。音響設備が整っており、全国から多くの観客が訪れる人気のスポットです。",
+      "fare": 3000,
+      "staytime": 120,
+      "id": 161
+    },
+    {
+      "name": "Hamadera Park",
+      "category": "Playground",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">2 Chome Hamadera Koencho, Nishi Ward, Sakai</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">592-8346</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5420623,
+        "lng": 135.44074179999998
+      },
+      "japanese_name": "浜寺公園",
+      "description": "浜寺公園は大阪府堺市に位置する遊び場です。自然に囲まれた広々とした空間で、子供たちが楽しめる遊具や遊び場が整備されています。家族連れに人気のスポットで、リラックスした時間を過ごすことができます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 162
+    },
+    {
+      "name": "Osaka Prefectural Government Sakishima Building",
+      "category": "Government Office",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-14-16 Nankōkita, Suminoe Ward, Osaka</span>, <span class=\"postal-code\">559-0034</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6380343,
+        "lng": 135.4146667
+      },
+      "japanese_name": "大阪府咲洲庁舎",
+      "description": "大阪府咲洲庁舎は、大阪市住之江区に位置する政府機関の建物です。近代的なデザインが特徴で、周辺の景観とも調和しています。観光客にも訪れやすい場所にあり、地域の情報を得ることができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 163
+    },
+    {
+      "name": "Sakai City Hall",
+      "category": "City Hall",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">3-1 Minamikawaramachi, Sakai Ward, Sakai</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">590-0078</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.573585699999995,
+        "lng": 135.4828707
+      },
+      "japanese_name": "堺市役所",
+      "description": "堺市役所は大阪府堺市に位置する行政機関である。市の中心にあり、周囲には公園や文化施設も多く、訪れる際には地域の歴史や文化を感じることができる。観光客にも開放されているため、訪問する価値がある。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 164
+    },
+    {
+      "name": "Daisen Park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-chōme-4-3 Higashiuenoshibachō, Sakai Ward, Sakai</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">590-0802</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.5584962,
+        "lng": 135.48275519999999
+      },
+      "japanese_name": "大泉公園",
+      "description": "大泉公園は、大阪府堺市に位置する広大な公園です。自然豊かな環境で、散策やピクニックを楽しむことができます。家族連れやカップルにも人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 165
+    },
+    {
+      "name": "Minatogawa Jinja",
+      "category": "Place of Worship",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">3-chōme-1-1 Tamondōri, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0015</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.681829799999996,
+        "lng": 135.17529199999998
+      },
+      "japanese_name": "湊川神社",
+      "description": "湊川神社は兵庫県神戸市に位置する神社です。歴史的な背景を持ち、地域の人々に親しまれています。美しい境内や神社の伝統行事を楽しむことができます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 166
+    },
+    {
+      "name": "Kobe Chinatown Nankin-machi",
+      "category": "Tourist Attraction",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-3-18 Sakaemachidōri, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0023</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6882142,
+        "lng": 135.1881104
+      },
+      "japanese_name": "神戸中華街 南京町",
+      "description": "神戸中華街 南京町は、神戸市中央区に位置する日本最大の中華街です。多彩な中華料理やお土産が楽しめるスポットで、観光客に人気があります。活気ある雰囲気の中で、異国情緒を味わうことができます。",
+      "fare": 1500,
+      "staytime": 120,
+      "id": 167
+    },
+    {
+      "name": "Kitano Ijinkan-Gai",
+      "category": "Historical Landmark",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2 Chome-3 Kitanocho, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7007283,
+        "lng": 135.19079059999999
+      },
+      "japanese_name": "北野異人館街",
+      "description": "北野異人館街は神戸にある歴史的な観光地で、外国人の居住地として栄えたエリアです。美しい洋館が立ち並び、異国情緒あふれる雰囲気を楽しむことができます。散策しながら、歴史的な建物を見学することができるスポットです。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 168
+    },
+    {
+      "name": "Ikuta Jinja",
+      "category": "Place of Worship",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-2-1 Shimoyamatedōri, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6947159,
+        "lng": 135.1907243
+      },
+      "japanese_name": "生田神社",
+      "description": "生田神社は、兵庫県神戸市に位置する歴史ある神社です。多くの参拝者が訪れ、商売繁盛や恋愛成就を願う場所として知られています。美しい境内や伝統的な祭りが魅力的です。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 169
+    },
+    {
+      "name": "Kobe Nunobiki Herb Gardens & Ropeway",
+      "category": "Botanical Garden",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-chōme-4-3 Kitanochō, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">650-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.70442750000001,
+        "lng": 135.1938755
+      },
+      "japanese_name": "神戸布引ハーブ園・ロープウェイ",
+      "description": "神戸布引ハーブ園・ロープウェイは、神戸市にある美しい植物園です。ロープウェイを利用して山の上まで行くことができ、四季折々のハーブや花々を楽しむことができます。絶景の展望台もあり、訪れる価値があります。",
+      "fare": 1500,
+      "staytime": 120,
+      "id": 170
+    },
+    {
+      "name": "Kobe Ōji Zoo",
+      "category": "Zoo",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">3 Chome-1 Ojicho, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0838</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.709351,
+        "lng": 135.2152279
+      },
+      "japanese_name": "神戸市立王子動物園",
+      "description": "神戸市立王子動物園は、神戸市の中心部に位置する動物園です。多種多様な動物たちを観察できるだけでなく、美しい庭園や遊具もあり、家族連れに人気のスポットです。訪れることで、動物たちとのふれあいや自然の美しさを楽しむことができます。",
+      "fare": 600,
+      "staytime": 120,
+      "id": 171
+    },
+    {
+      "name": "Dotonbori",
+      "category": "Tourist Attraction",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1 Chome-9 Dotonbori, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0071</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6687234,
+        "lng": 135.5012971
+      },
+      "japanese_name": "道頓堀",
+      "description": "道頓堀は大阪の中心部に位置する観光名所で、多くの飲食店やエンターテイメントが集まっています。特にグルメや夜景を楽しむために訪れる観光客に人気です。道頓堀の象徴的な看板や川沿いの雰囲気は、訪れる人々に忘れられない体験を提供します。",
+      "fare": 2000,
+      "staytime": 120,
+      "id": 172
+    },
+    {
+      "name": "Tsutenkaku",
+      "category": "Observation Deck",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-chōme-18-6 Ebisuhigashi, Naniwa Ward, Osaka</span>, <span class=\"postal-code\">556-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6524992,
+        "lng": 135.50630580000004
+      },
+      "japanese_name": "通天閣",
+      "description": "通天閣は大阪の象徴的な展望台であり、観光客に人気のスポットです。高さは約100メートルで、大阪市内を一望できます。周囲には飲食店や土産物店も多く、観光の際に楽しめる要素が豊富です。",
+      "fare": 900,
+      "staytime": 60,
+      "id": 173
+    },
+    {
+      "name": "Umeda Sky Building",
+      "category": "Tourist Attraction",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-1-88 Ōyodonaka, Kita Ward, Osaka</span>, <span class=\"postal-code\">531-6023</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7052872,
+        "lng": 135.4896527
+      },
+      "japanese_name": "梅田スカイビル",
+      "description": "梅田スカイビルは大阪の象徴的な観光地で、空中庭園展望台からの絶景が楽しめる。周辺にはショッピングや飲食店も豊富で、観光客に人気のスポットだ。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 174
+    },
+    {
+      "name": "Namba Yasaka Jinja",
+      "category": "Place of Worship",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-chōme-9-19 Motomachi, Naniwa Ward, Osaka</span>, <span class=\"postal-code\">556-0016</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.661559200000006,
+        "lng": 135.4967039
+      },
+      "japanese_name": "難波八阪神社",
+      "description": "難波八阪神社は、大阪市浪速区に位置する神社です。歴史あるこの神社は、商売繁盛や家内安全を祈願するための場所として知られています。美しい狛犬や大きな社殿が特徴で、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 30,
+      "id": 175
+    },
+    {
+      "name": "Kuchu Teien Observatory",
+      "category": "Observation Deck",
+      "rating": 4.4,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒531-6039</span> <span class=\"region\">Osaka</span>, <span class=\"street-address\">Kita Ward, Ōyodonaka, 1-chōme−1−８８ 梅田スカイビル</span>",
+      "location": {
+        "lat": 34.705301899999995,
+        "lng": 135.4905359
+      },
+      "japanese_name": "空中庭園展望台",
+      "description": "空中庭園展望台は、大阪の梅田スカイビルの最上階に位置する展望台です。ここからは大阪市内や周辺の美しい景色を360度楽しむことができます。夜景も特に人気で、ロマンチックな雰囲気を満喫できます。",
+      "fare": 1000,
+      "staytime": 60,
+      "id": 176
+    },
+    {
+      "name": "Shin Sekai \"New World\"",
+      "category": "不明",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">2 Chome-5 Ebisuhigashi, Naniwa Ward, Osaka</span>, <span class=\"postal-code\">556-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.651601299999996,
+        "lng": 135.50595619999999
+      },
+      "japanese_name": "新世界",
+      "description": "新世界は大阪の人気観光地で、レトロな雰囲気が漂うエリアです。たこ焼きや串カツなどの美味しい食べ物が楽しめます。観光名所の通天閣も近くにあり、訪れる価値があります。",
+      "fare": 1500,
+      "staytime": 120,
+      "id": 177
+    },
+    {
+      "name": "Kobe Municipal Arboretum",
+      "category": "Botanical Garden",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒651-1102</span> <span class=\"region\">Hyogo</span>, <span class=\"street-address\">Kobe, Kita Ward, Yamadachō Kamitanigami</span>, 字長尾1-2",
+      "location": {
+        "lat": 34.740879,
+        "lng": 135.1780374
+      },
+      "japanese_name": "神戸市立森林植物園",
+      "description": "神戸市立森林植物園は、神戸市に位置する美しい植物園で、様々な植物や木々を観察することができます。自然の中でリラックスできるスポットであり、四季折々の風景を楽しむことができます。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 178
+    },
+    {
+      "name": "Hyogo Prefectural Miki Disaster Management Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">Mitsuda-1708 Shijimichō, Miki</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-0515</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.781759,
+        "lng": 135.05033360000002
+      },
+      "japanese_name": "兵庫県立三木防災公園",
+      "description": "兵庫県立三木防災公園は、災害に対する理解を深めるための施設です。様々な防災体験ができるエリアや展示があり、家族連れにも人気のスポットです。自然の中で防災について学ぶことができます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 179
+    },
+    {
+      "name": "Sumaura-Yuen Amusement Park",
+      "category": "Amusement Park",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-3-2 Ichinotanichō, Suma Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">654-0076</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6427896,
+        "lng": 135.0933962
+      },
+      "japanese_name": "須磨浦遊園",
+      "description": "須磨浦遊園は、神戸市須磨区に位置する遊園地です。家族連れや友人同士で楽しめるアトラクションが豊富で、四季折々の自然を楽しむことができます。子供から大人まで楽しめる施設が整っています。",
+      "fare": 3000,
+      "staytime": 180,
+      "id": 180
+    },
+    {
+      "name": "Akashi Municipal Planetarium",
+      "category": "Museum",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-6 Hitomaruchō, Akashi</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-0877</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6493878,
+        "lng": 135.0014797
+      },
+      "japanese_name": "明石市立天文科学館",
+      "description": "明石市立天文科学館は、星や宇宙に関する様々な展示が楽しめる博物館です。プラネタリウムも併設されており、星空の美しさを体験できます。家族連れや宇宙好きには特におすすめのスポットです。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 181
+    },
+    {
+      "name": "Tsuki-no-yufune",
+      "category": "Public Bath",
+      "rating": 4,
+      "address": "<span class=\"street-address\">7-chōme-4-46 Aoyamadai, Tarumi-ku, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">655-0873</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6459005,
+        "lng": 135.071342
+      },
+      "japanese_name": "月の湯船",
+      "description": "月の湯船は神戸市垂水区に位置する公共浴場です。リラックスできる温泉と美しい景色が魅力で、多くの観光客に愛されています。心身ともに癒されるひとときを楽しむことができます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 182
+    },
+    {
+      "name": "Hankyu Dept. Umeda Main Store",
+      "category": "Department Store",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">8-7 Kakudachō, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-8350</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7028186,
+        "lng": 135.4985323
+      },
+      "japanese_name": "阪急百貨店 梅田本店",
+      "description": "阪急百貨店梅田本店は、大阪の中心地に位置する大型デパートです。多彩な商品が揃い、ショッピングだけでなく、グルメやイベントも楽しむことができます。観光客にも人気のスポットで、訪れる価値があります。",
+      "fare": 3000,
+      "staytime": 120,
+      "id": 183
+    },
+    {
+      "name": "Cup Noodles Museum Osaka Ikeda",
+      "category": "Museum",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">8-25 Masumichō, Ikeda</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">563-0041</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8178846,
+        "lng": 135.4266442
+      },
+      "japanese_name": "カップヌードルミュージアム 大阪池田",
+      "description": "カップヌードルミュージアム 大阪池田は、インスタントラーメンの歴史と文化を学べる博物館です。来館者は自分だけのカップヌードルを作る体験ができ、家族や友人と楽しむことができます。さまざまな展示やアクティビティが用意されています。",
+      "fare": 500,
+      "staytime": 90,
+      "id": 184
+    },
+    {
+      "name": "Hep Five Ferris wheel",
+      "category": "Ferris wheel",
+      "rating": 4.4,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒530-0017</span> <span class=\"region\">Osaka</span>, <span class=\"street-address\">Kita Ward, Kakudachō, 5−１５ HEP FIVE 7F</span>",
+      "location": {
+        "lat": 34.703815299999995,
+        "lng": 135.499969
+      },
+      "japanese_name": "HEP FIVE観覧車",
+      "description": "HEP FIVE観覧車は大阪の中心部に位置する大観覧車です。高さは約113メートルで、360度のパノラマビューを楽しむことができます。特に夜景が美しく、観光客に人気のスポットです。",
+      "fare": 1000,
+      "staytime": 30,
+      "id": 185
+    },
+    {
+      "name": "Tojo Lake Toy Kingdom",
+      "category": "Amusement Center",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1216 Kurodani, Kato</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-1301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.9309558,
+        "lng": 135.0625196
+      },
+      "japanese_name": "東条湖おもちゃ王国",
+      "description": "東条湖おもちゃ王国は、兵庫県加東市に位置する楽しいアミューズメントセンターです。家族連れや子供たちに特に人気があり、様々なアトラクションや遊び場があります。自然に囲まれた環境の中で、楽しい一日を過ごすことができます。",
+      "fare": 3000,
+      "staytime": 180,
+      "id": 186
+    },
+    {
+      "name": "Sunflower hill park",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1545-321 Kiyotanichō, Ono</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">675-1317</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.868611099999995,
+        "lng": 134.9541667
+      },
+      "japanese_name": "ひまわりの丘公園",
+      "description": "ひまわりの丘公園は、兵庫県小野市にある美しい公園です。広大な敷地には色とりどりのひまわりが咲き誇り、訪れる人々を楽しませます。家族連れやカップルに人気のスポットで、ピクニックや散策に最適です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 187
+    },
+    {
+      "name": "Hyogo Prefectural Harima Central Park",
+      "category": "Park",
+      "rating": 4,
+      "address": "<span class=\"street-address\">1275-8 Shimotakino, Kato</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">679-0212</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.9380465,
+        "lng": 134.9388161
+      },
+      "japanese_name": "兵庫県立播磨中央公園",
+      "description": "兵庫県立播磨中央公園は、自然豊かな環境の中でリラックスできる公園です。広大な敷地には、散策路や遊具、スポーツ施設が整備されており、家族連れや友人と訪れるのに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 188
+    },
+    {
+      "name": "Ono Sakura Dzutsumi Corridor",
+      "category": "Tourist Attraction",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">Suminagacho, Ono</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">675-1368</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.861580499999995,
+        "lng": 134.91790699999999
+      },
+      "japanese_name": "小野桜づつみ回廊",
+      "description": "小野桜づつみ回廊は兵庫県小野市にある美しい桜の名所です。春になると多くの桜が咲き誇り、訪れる人々を魅了します。散策しながら自然を楽しむことができるスポットです。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 189
+    },
+    {
+      "name": "Miki Horse Land Park",
+      "category": "Amusement Center",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">Besshocho Takagi, Miki</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-0435</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.781362,
+        "lng": 134.971054
+      },
+      "japanese_name": "三木ホースランドパーク",
+      "description": "三木ホースランドパークは、兵庫県三木市にあるアミューズメントセンターです。乗馬体験や馬との触れ合いを楽しむことができる施設で、家族連れや子供に人気です。自然に囲まれた広い敷地で、リラックスした時間を過ごせます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 190
+    },
+    {
+      "name": "Yokawa Park",
+      "category": "Park",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">549-481 Yokawachō Nishioku, Miki</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-1122</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8599995,
+        "lng": 135.11226879999998
+      },
+      "japanese_name": "横川公園",
+      "description": "横川公園は兵庫県三木市に位置する自然豊かな公園です。広々とした敷地には、散策路や遊具があり、家族連れや友人同士で楽しむことができます。四季折々の風景が楽しめるため、訪れるたびに新しい発見があります。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 191
+    },
+    {
+      "name": "Mikikko land",
+      "category": "Park",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">2475-5 Fukui, Miki</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">673-0433</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.789742,
+        "lng": 134.994669
+      },
+      "japanese_name": "みきっこランド",
+      "description": "みきっこランドは兵庫県三木市にある楽しい公園です。家族連れに人気があり、様々なアトラクションや遊具が揃っています。自然豊かな環境で、リラックスしながら遊ぶことができます。",
+      "fare": 500,
+      "staytime": 120,
+      "id": 192
+    },
+    {
+      "name": "Inami Central Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1287-3 Kuniyasu, Inami, Kako District</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">675-1114</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7495469,
+        "lng": 134.9227742
+      },
+      "japanese_name": "いなみ中央公園",
+      "description": "いなみ中央公園は、兵庫県加古郡に位置する広々とした公園です。自然豊かな環境で、散策やピクニックに最適な場所です。家族連れや友人と訪れるのにぴったりのスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 193
+    },
+    {
+      "name": "Ishigadani Park",
+      "category": "Park",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">Matsukage-1126-47 Ōkubochō, Akashi</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">674-0053</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.707269499999995,
+        "lng": 134.9576726
+      },
+      "japanese_name": "石ヶ谷公園",
+      "description": "石ヶ谷公園は兵庫県明石市に位置する公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。家族連れや友人同士で訪れるのに最適な場所です。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 194
+    },
+    {
+      "name": "Rokkosan Pasture (Ranch)",
+      "category": "不明",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒657-0101</span> <span class=\"region\">Hyogo</span>, <span class=\"street-address\">Kobe, Nada Ward, Rokkōsanchō, Nakaichiriyama−１−１</span>",
+      "location": {
+        "lat": 34.7515873,
+        "lng": 135.2090028
+      },
+      "japanese_name": "六甲山牧場",
+      "description": "六甲山牧場は、兵庫県神戸市に位置する自然豊かな観光地です。美しい風景を楽しみながら、動物たちと触れ合うことができる場所です。家族連れやカップルに人気で、さまざまなアクティビティも楽しめます。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 195
+    },
+    {
+      "name": "Kanefuku Mentai Park Kobe Sanda",
+      "category": "Amusement Center",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">1-chōme-7-1 Akamatsudai, Kita Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">651-1516</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8746,
+        "lng": 135.186692
+      },
+      "japanese_name": "明太パーク神戸三田",
+      "description": "明太パーク神戸三田は、明太子の製造過程を見学できる体験型のアミューズメントセンターです。明太子の試食や、オリジナルの明太子作り体験も楽しめます。家族連れや友人同士で訪れるのにぴったりの場所です。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 196
+    },
+    {
+      "name": "Kikuseidai",
+      "category": "Observation Deck",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">Nagamineyama-2-2 Mayasanchō, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0105</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.734241499999996,
+        "lng": 135.2063283
+      },
+      "japanese_name": "菊水台",
+      "description": "菊水台は神戸市の名勝地で、美しい景色を楽しむことができる展望台です。ここからは、神戸市街や海の素晴らしいパノラマビューが広がります。訪れる人々にとって、リラックスできるスポットとなっています。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 197
+    },
+    {
+      "name": "Rokko Garden Terrace",
+      "category": "Observation Deck",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">Gosukeyama-1877-9 Rokkōsanchō, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0101</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.764431699999996,
+        "lng": 135.2476096
+      },
+      "japanese_name": "六甲ガーデンテラス",
+      "description": "六甲ガーデンテラスは、神戸市に位置する絶景の展望デッキです。美しい自然に囲まれながら、神戸市街や海を一望できます。特に夕暮れ時の景色は格別で、多くの観光客が訪れます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 198
+    },
+    {
+      "name": "Mt. Rokkō Snow Park",
+      "category": "Ski Resort",
+      "rating": 4,
+      "address": "<span class=\"street-address\">Kitarokkō-4512-98 Rokkōsanchō, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0101</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7679067,
+        "lng": 135.2426071
+      },
+      "japanese_name": "六甲スノーパーク",
+      "description": "六甲スノーパークは、神戸市に位置するスキーリゾートです。冬季にはスキーやスノーボードを楽しむことができ、初心者から上級者まで様々なコースがあります。美しい景色と充実した施設が魅力です。",
+      "fare": 5000,
+      "staytime": 240,
+      "id": 199
+    },
+    {
+      "name": "Rokkosan Country House",
+      "category": "Adventure Sports Center",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">Kitarokkō-4512-98 Rokkōsanchō, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0101</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.765985,
+        "lng": 135.2444453
+      },
+      "japanese_name": "六甲山カントリーハウス",
+      "description": "六甲山カントリーハウスは、冒険スポーツを楽しむことができる施設です。美しい自然に囲まれた環境で、様々なアクティビティを体験できます。家族や友人と一緒に訪れるのに最適な場所です。",
+      "fare": 3000,
+      "staytime": 120,
+      "id": 200
+    },
+    {
+      "name": "Nunobiki Falls (Ontaki / Meotodaki)",
+      "category": "不明",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">Nunobikiyama Fukiaicho, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">651-0058</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7097005,
+        "lng": 135.1938164
+      },
+      "japanese_name": "布引の滝（雄滝 / 雌滝）",
+      "description": "布引の滝は神戸市に位置する美しい滝で、雄滝と雌滝の二つがあります。自然の中でリフレッシュできるスポットで、ハイキングや観光に最適です。四季折々の景色を楽しむことができ、多くの観光客に人気があります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 201
+    },
+    {
+      "name": "Hyogo Prefectural Museum of Art",
+      "category": "Museum",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-1-1 Wakinohamakaigandōri, Chuo Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">651-0073</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6992495,
+        "lng": 135.2182515
+      },
+      "japanese_name": "兵庫県立美術館",
+      "description": "兵庫県立美術館は、神戸市に位置する美術館で、国内外の美術作品を展示しています。特に近代美術に焦点を当てており、訪れる人々に多様なアート体験を提供しています。",
+      "fare": 1000,
+      "staytime": 120,
+      "id": 202
+    },
+    {
+      "name": "Nishinomiya Jinja (Nishinomiya Ebisu)",
+      "category": "Place of Worship",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1-17 Shakechō, Nishinomiya</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">662-0974</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7356845,
+        "lng": 135.3346066
+      },
+      "japanese_name": "西宮神社（西宮えびす）",
+      "description": "西宮神社は商売繁盛の神様、えびす様を祀る神社です。毎年多くの参拝者が訪れ、特に正月のえびす祭りは賑わいます。境内は美しい自然に囲まれ、心を癒す場所でもあります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 203
+    },
+    {
+      "name": "Katsuoji",
+      "category": "Place of Worship",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2914-1 Aomatani, Minoh</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">562-8508</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8657752,
+        "lng": 135.491087
+      },
+      "japanese_name": "勝尾寺",
+      "description": "勝尾寺は大阪府箕面市にある有名な寺院です。ここは勝運を祈願するための場所として多くの人々に訪れられています。美しい自然に囲まれた静かな環境で、心を落ち着けることができます。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 204
+    },
+    {
+      "name": "Minoh Falls",
+      "category": "不明",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-２ Minookōen, Minoh</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">562-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8538281,
+        "lng": 135.4719911
+      },
+      "japanese_name": "箕面滝",
+      "description": "箕面滝は大阪府箕面市に位置する美しい滝で、自然豊かな環境に囲まれています。訪れる人々は、滝の音や周囲の景色を楽しみながら、ハイキングを楽しむことができます。特に秋の紅葉の時期は、絶景が広がります。",
+      "fare": 0,
+      "staytime": 60,
+      "id": 205
+    },
+    {
+      "name": "Minoh National Park",
+      "category": "National Park",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-18 Minookōen, Minoh</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">562-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.847070599999995,
+        "lng": 135.4723464
+      },
+      "japanese_name": "箕面公園",
+      "description": "箕面公園は大阪府に位置する美しい国立公園で、自然豊かな環境が魅力です。四季折々の風景を楽しむことができ、特に紅葉の時期は多くの観光客で賑わいます。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 206
+    },
+    {
+      "name": "Hyogo Performing Arts Center",
+      "category": "Philharmonic Hall",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-22 Takamatsuchō, Nishinomiya</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">663-8204</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7435884,
+        "lng": 135.3559208
+      },
+      "japanese_name": "兵庫芸術センター",
+      "description": "兵庫芸術センターは、音楽や舞台芸術のための施設です。特にフィルハーモニックホールは、素晴らしい音響と美しいデザインで知られています。多様な公演が行われ、訪れる人々に感動を与えています。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 207
+    },
+    {
+      "name": "Hattori Ryokuchi Park",
+      "category": "Park",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-1 Hattoriryokuchi, Toyonaka</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">561-0873</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7759539,
+        "lng": 135.48819459999999
+      },
+      "japanese_name": "服部緑地公園",
+      "description": "服部緑地公園は、大阪府豊中市に位置する広大な公園です。自然豊かな環境の中で、散策やピクニックを楽しむことができます。遊具やスポーツ施設も充実しており、家族連れにも人気のスポットです。",
+      "fare": 0,
+      "staytime": 120,
+      "id": 208
+    }
+  ]
+}
