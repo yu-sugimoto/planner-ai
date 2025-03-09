@@ -1,8 +1,8 @@
 # backend
 
-（サービス名） の API
+（仮）trip_planner の API
 
-# 環境構築（Docker）
+## 環境構築（Docker）
 
 ## 起動 
 ```bash
@@ -29,8 +29,7 @@ $ docker exec -it db bash
 ## データベースのマイグレーション
 
 ### マイグレーションの追加（不要）
-※おそらくセットアップ時にマイグレーションファイルがあるので不要
-
+※おそらくセットアップ時にマイグレーションファイルがあるので不要  
 `/api/models/` にモデルを追加・変更した場合、以下のコマンドでマイグレーションを追加する
 ```bash
 % poetry run alembic revision --autogenerate -m "< メッセージ >"
@@ -41,7 +40,9 @@ $ docker exec -it db bash
 % poetry run alembic upgrade head
 ```
 
-# 環境構築（ローカル）
+***
+
+## 環境構築（ローカル）
 ※Docker環境で動かす場合は不要
 
 | ツール | バージョン |
@@ -51,8 +52,6 @@ $ docker exec -it db bash
 | PostgreSQL | 17.x |
 
 ## セットアップ
-
-## Python と関連するツールの準備
 
 ### Python
 
@@ -123,15 +122,16 @@ POSTGRES_PORT='5432'
 $ poetry run uvicorn app.main:app --reload
 ```
 
-# データベースのマイグレーション
-## マイグレーションの追加
+## データベースのマイグレーション
 
+### マイグレーションの追加（不要）
+※おそらくセットアップ時にマイグレーションファイルがあるので不要  
 `/api/models/` にモデルを追加・変更した場合、以下のコマンドでマイグレーションを追加する
 ```
 % poetry run alembic revision --autogenerate -m "< メッセージ >"
 ```
 
-## マイグレーションの適用
+### マイグレーションの適用
 ```
 % poetry run alembic upgrade head
 ```
