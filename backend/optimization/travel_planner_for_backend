@@ -361,28 +361,3 @@ def plan_itinerary(
 
     json_itinerary = json.dumps(itinerary, indent=2, ensure_ascii=False)
     return json_itinerary
-
-
-if __name__ == "__main__":
-    args = sys.argv
-    if len(args) != 6:
-        print(
-            "Usage: python get_optimal_travel.py <departure time(00:00)> <city> <budget> <days> <people>"
-        )
-        sys.exit(1)
-
-    input_departure_time = args[1]
-    # departure_time を分換算（例："10:00" → 600）
-    departure_time = int(input_departure_time.split(":")[0]) * 60 + int(
-        input_departure_time.split(":")[1]
-    )
-    city = args[2]
-    budget = int(args[3])
-    days = int(args[4])
-    people = int(args[5])
-
-    try:
-        itinerary = plan_itinerary(city, budget, days, departure_time, people)
-        print(itinerary)
-    except Exception as e:
-        print("エラー:", e)
