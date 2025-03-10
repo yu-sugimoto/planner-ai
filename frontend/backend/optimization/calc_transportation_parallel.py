@@ -1,6 +1,7 @@
 import os
 import json
-import concurrent.futures
+import itertools
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -54,12 +55,16 @@ def estimate_transportation(start: str, end: str, start_address: str, end_addres
             if '利用する交通手段:' in line:
                 result['method'] = line.split(':')[1].strip()
             elif '金額:' in line:
+                # Extract only numeric characters
                 fare_str = ''.join(c for c in line.split(':')[1].strip() if c.isdigit())
                 fare = int(fare_str) if fare_str else 300
-                result['fare'] = fare
+                # Set maximum fare to 10000 yen
+                result['fare'] =  fare
             elif '時間:' in line:
+                # Extract only numeric characters
                 time_str = ''.join(c for c in line.split(':')[1].strip() if c.isdigit())
                 time = int(time_str) if time_str else 30
+                # Set maximum time to 120 minutes
                 result['time'] = min(time, 120)
         
         # Validate required fields
@@ -80,15 +85,9 @@ def estimate_transportation(start: str, end: str, start_address: str, end_addres
     
     return result
 
-def process_route(start: dict, end: dict) -> dict:
-    """Process a single route and return the result"""
-    result = estimate_transportation(
-        start['name'],
-        end['name'],
-        start['address'],
-        end['address']
-    )
-    
+def process_combination(start: Dict, end: Dict) -> Dict:
+    """Process a single combination of start and end destinations"""
+    result = estimate_transportation(start['name'], end['name'], start['address'], end['address'])
     return {
         'start_destination_id': start['id'],
         'end_destination_id': end['id'],
@@ -98,44 +97,48 @@ def process_route(start: dict, end: dict) -> dict:
     }
 
 def main():
-    # Load tourist spots data
+    # Load input data
     with open('data/tourist_spots_with_info.json', 'r') as f:
         data = json.load(f)
     
-    # Get Osaka station and tourist spots
-    osaka_station = {
-        'id': '0',
-        'name': '大阪駅',
-        'address': '大阪府大阪市北区梅田三丁目1番1号'
-    }
+    # Generate all combinations
+    combinations = []
+    for city, spots in data.items():
+        combinations.extend(itertools.permutations(spots, 2))
     
-    # Initialize results list
+    # Initialize output file
+    output_file = 'data/transportation_costs.json'
+    with open(output_file, 'w') as f:
+        f.write('[\n')
+    
+    # Process combinations in parallel
     results = []
-    
-    # Process routes in parallel
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        futures = []
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = [
+            executor.submit(process_combination, start, end)
+            for start, end in combinations
+        ]
         
-        # Create futures for all routes
-        for city, spots in data.items():
-            for spot in spots:
-                futures.append(executor.submit(
-                    process_route,
-                    osaka_station,
-                    spot
-                ))
-        
-        # Process results with progress bar
-        for future in tqdm(concurrent.futures.as_completed(futures), total=len(futures)):
+        # Show progress bar and write results incrementally
+        first = True
+        for future in tqdm(as_completed(futures), total=len(futures), desc="Processing combinations"):
             try:
                 result = future.result()
+                with open(output_file, 'a') as f:
+                    if not first:
+                        f.write(',\n')
+                    json.dump(result, f, indent=2, ensure_ascii=False)
+                    first = False
                 results.append(result)
             except Exception as e:
-                print(f"Error processing route: {str(e)}")
+                print(f"Error processing combination: {str(e)}")
     
-    # Save results to file
-    with open('data/Osaka_to_all_spots.json', 'w') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
+    # Sort results by start_destination_id and end_destination_id
+    results.sort(key=lambda x: (x['start_destination_id'], x['end_destination_id']))
+    
+    # Finalize output file
+    with open(output_file, 'a') as f:
+        f.write('\n]')
 
 if __name__ == '__main__':
     main()

@@ -6,12 +6,13 @@ def load_transportation_data() -> List[Dict]:
     with open('data/Osaka_to_all_spots.json', 'r') as f:
         return json.load(f)
 
-def optimize_itinerary(budget: int, days: int) -> List[Dict]:
+def optimize_itinerary(budget: int, days: int, city: str) -> List[Dict]:
     """
     Optimize itinerary to visit maximum number of spots within budget and time constraints
     Args:
         budget: Total budget in JPY
         days: Number of days for the trip
+        city: City that the trip places in 
     Returns:
         List of daily itineraries
     """
@@ -24,7 +25,7 @@ def optimize_itinerary(budget: int, days: int) -> List[Dict]:
     itineraries = []
     
     # Create a list of spots sorted by efficiency (time per spot)
-    spots = sorted(data, key=lambda x: x['transportation_time'] / x['transportation_fare'])
+    spots = sorted(data, key=lambda x: x['transportation_time'] / (x['transportation_fare'] + 1))
     
     for day in range(1, days + 1):
         daily_itinerary = {
