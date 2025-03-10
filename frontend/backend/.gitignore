@@ -1,7 +1,3 @@
-.env.local
-venv
-.ruff_cache
-
-# from backend repo
 __pycache__
 .env
+.env.local

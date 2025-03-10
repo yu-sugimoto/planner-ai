@@ -15,6 +15,7 @@ class Destination(Base):
     destination_address = Column(String, nullable=False)
     destination_latitude = Column(Float, nullable=False)
     destination_longitude = Column(Float, nullable=False)
+    destination_area = Column(String, nullable=False)
 
     # オブジェクトの表示設定
     def __repr__(self):

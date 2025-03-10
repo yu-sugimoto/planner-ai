@@ -12,6 +12,7 @@ class DestinationBase(BaseModel):
     destination_address: str
     destination_latitude: float
     destination_longitude: float
+    destination_area: str
 
 # Destinationの作成時のスキーマを定義
 class DestinationCreate(DestinationBase):
@@ -28,6 +29,7 @@ class DestinationUpdate(DestinationBase):
     destination_address: Optional[str] = None
     destination_latitude: Optional[float] = None
     destination_longitude: Optional[float] = None
+    destination_area: Optional[str] = None
 
 # Destinationの取得時のスキーマを定義
 class Destination(DestinationBase):
