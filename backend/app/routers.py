@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from app.dependencies import get_db
 from app.services.travel_plan import generate_travel_plan
 from datetime import date
-from app.schemas import Destination
+from app.models import Destination
 from fastapi.responses import JSONResponse
 
 # APIRouterインスタンスを作成（ルーティングを管理する）

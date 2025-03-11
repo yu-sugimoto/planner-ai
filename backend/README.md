@@ -11,7 +11,7 @@
 
 ## 環境構築（Docker）
 
-## 起動 
+## FastAPI ・ PostgreSQL の起動
 ```
 $ docker compose up --build
 ```
@@ -31,12 +31,6 @@ $ docker exec -it db bash
 $ docker exec -it app bash
 $ poetry show
 ```
-
-<br>
-
-***
-
-<br>
 
 ## 環境構築（Dockerでうまくいかない場合）
 ※Docker環境で動かす場合は不要
@@ -106,16 +100,10 @@ POSTGRES_SERVER='localhost'
 POSTGRES_PORT='5432'
 ```
 
-## 起動
+## FastAPIの起動
 ```bash
 $ poetry run uvicorn app.main:app --reload
 ```
-
-<br>
-
-***
-
-<br>
 
 ## データベースのマイグレーション
 
@@ -130,12 +118,6 @@ $ poetry run alembic revision --autogenerate -m "< メッセージ >"
 ```bush
 $ poetry run alembic upgrade head
 ```
-
-<br>
-
-***
-
-<br>
 
 ## 初期データの投入
 
