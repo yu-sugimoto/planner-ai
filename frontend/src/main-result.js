@@ -12,18 +12,6 @@ window.addEventListener('DOMContentLoaded', () => {
         console.log(resultDataJSON);
     }
 
-
-    // const routeDataJSON = localStorage.getItem('routeData');
-    // let routeData = null;
-
-    // if (routeDataJSON) {
-    //     // { route: [ {lat, lng, name}, ... ] } の構造を想定
-    //     routeData = JSON.parse(routeDataJSON).route;
-    // } else {
-    //     alert('ルート情報がありません');
-    //     return;
-    // }
-
     // Leaflet の地図初期化
     const map = L.map('map', {
         center: [35.681236, 139.767125], // 東京駅付近

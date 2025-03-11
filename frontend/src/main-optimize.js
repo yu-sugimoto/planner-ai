@@ -8,18 +8,26 @@ optimizeButton.addEventListener('click', async function() {
     // フォームのバリデーション
     const budget = document.getElementById('budget');
     const days = document.getElementById('days');
-    const startDate = document.getElementById('startDate');
     const people = document.getElementById('people');
     const latitude  = localStorage.getItem('latitude');
     const longitude = localStorage.getItem('longitude');
     const departure = localStorage.getItem('departure');
     const area      = localStorage.getItem('area');
 
-    // エラーメッセージをリセット
-    clearErrors();
-
-    // 必須項目と整数値のチェック
+    const timeValue = document.getElementById('startDate').value;
     let isValid = true;
+    let numericTime = 0;
+    if (timeValue) {
+        const [hourStr, minuteStr] = timeValue.split(':');
+        const hour = parseInt(hourStr, 10);
+        const minute = parseInt(minuteStr, 10);
+        numericTime = hour * 100 + minute;
+    } else {
+        showError(people, '時間を正しく入力して下さい。');
+        isValid = false;
+    }
+
+    clearErrors();
 
     if (!budget.value || !Number.isInteger(Number(budget.value))) {
         showError(budget, '予算を整数で入力してください');
@@ -29,17 +37,6 @@ optimizeButton.addEventListener('click', async function() {
     if (!days.value || !Number.isInteger(Number(days.value)) || Number(days.value) < 1) {
         showError(days, '日数を正の整数で入力してください');
         isValid = false;
-    }
-
-    if (!startDate.value || !Number.isInteger(Number(startDate.value))) {
-        showError(startDate, '時刻を整数で入力してください');
-        isValid = false;
-    } else {
-        const time = Number(startDate.value);
-        if (time < 0 || time > 2359 || (time % 100) >= 60) {
-            showError(startDate, '正しい時刻形式で入力してください (0-2359)');
-            isValid = false;
-        }
     }
 
     if (!people.value || !Number.isInteger(Number(people.value)) || Number(people.value) < 1) {
@@ -57,7 +54,7 @@ optimizeButton.addEventListener('click', async function() {
                     area: area,
                     budget: parseInt(budget.value),
                     days: parseInt(days.value),
-                    startDate: parseInt(startDate.value),
+                    startDate: numericTime,
                     people: parseInt(people.value),
                     latitude: latitude ? parseFloat(latitude) : 0,
                     longitude: longitude ? parseFloat(longitude) : 0,
@@ -70,7 +67,7 @@ optimizeButton.addEventListener('click', async function() {
             }
 
             const resultData = await response.json();
-            console.log(resultData);
+
             // 取得したルートを localStorage に格納
             localStorage.setItem('resultData', resultData);
             // 結果ページへ遷移
