@@ -14,6 +14,22 @@ const nextButton = document.getElementById('nextButton');
 let userLatitude = null;
 let userLongitude = null;
 
+// FastAPIサーバ接続テスト → （成功）Consoleに "Hello World" が表示される
+const fetchHelloWorld = async () => {
+    try {
+        const response = await fetch('http://localhost:8000/');  // FastAPIサーバにGETリクエスト
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data.message);
+        } else {
+            console.error('FastAPI からのデータ取得に失敗しました');
+        }
+    } catch (error) {
+        console.error('APIリクエストエラー:', error);
+    }
+};
+window.addEventListener('DOMContentLoaded', fetchHelloWorld);  // ページ読み込み時に実行
+
 if (gpsButton) {
     gpsButton.addEventListener('click', () => {
         if (navigator.geolocation) {

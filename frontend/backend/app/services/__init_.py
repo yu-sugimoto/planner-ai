@@ -1,1 +1,0 @@
-from .travel_plan import generate_travel_plan
