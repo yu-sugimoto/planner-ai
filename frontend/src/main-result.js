@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const markers = [];
 
     // ルートデータをもとにマーカー & リスト生成
-    routeData.forEach((point, index) => {
+    resultDataJSON.forEach((point, index) => {
         const marker = L.marker([point.lat, point.lng]).addTo(map);
         marker.bindPopup(point.name);
         markers.push(marker);

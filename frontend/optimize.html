@@ -20,33 +20,32 @@
 <div class="uk-container uk-margin-top">
     <form class="uk-form-stacked">
         <div class="uk-margin">
-            <label class="uk-form-label" for="people">人数</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="people" type="number" placeholder="例: 4">
-            </div>
-        </div>
-
-        <div class="uk-margin">
-            <label class="uk-form-label" for="budget">予算</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="budget" type="number" placeholder="例: 50000">
+            <label class="uk-form-label" for="budget">予算 (円)</label>
+            <div class="uk-form-controls" style="width: 40%;">
+                <input class="uk-input" id="budget" type="number" min="0" placeholder="予算を入力">
             </div>
         </div>
 
         <div class="uk-margin">
             <label class="uk-form-label" for="days">日数</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="days" type="number" placeholder="例: 2">
+            <div class="uk-form-controls" style="width: 40%;">
+                <input class="uk-input" id="days" type="number" min="1" placeholder="滞在日数">
             </div>
         </div>
 
         <div class="uk-margin">
-            <label class="uk-form-label" for="startDate">出発日</label>
-            <div class="uk-form-controls">
-                <input class="uk-input" id="startDate" type="date">
+            <label class="uk-form-label" for="startDate">出発時刻 (例: 6:00→360、14:30→1430)</label>
+            <div class="uk-form-controls" style="width: 40%;">
+                <input class="uk-input" id="startDate" type="number" min="0" max="2359" placeholder="時刻を3桁または4桁の数字で入力">
             </div>
         </div>
 
+        <div class="uk-margin">
+            <label class="uk-form-label" for="people">人数</label>
+            <div class="uk-form-controls" style="width: 40%;">
+                <input class="uk-input" id="people" type="number" min="1" placeholder="旅行する人数">
+            </div>
+        </div>
         <div class="uk-margin">
             <button class="uk-button uk-button-primary" type="button" id="optimizeButton">ルートを最適化</button>
         </div>
