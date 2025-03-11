@@ -9,6 +9,7 @@ import './style.css';
 const gpsButton = document.getElementById('gpsButton');
 const gpsInfo = document.getElementById('gpsInfo');
 const departureInput = document.getElementById('departure');
+const areaInput = document.getElementById('area');
 const nextButton = document.getElementById('nextButton');
 
 let userLatitude = null;
@@ -39,6 +40,8 @@ if (gpsButton) {
                     userLongitude = position.coords.longitude;
                     gpsInfo.style.display = 'block';
                     gpsInfo.textContent = `緯度:${userLatitude}, 経度:${userLongitude}`;
+                    // htmlに追加
+                    departureInput.value += "大阪市";
                 },
                 (error) => {
                     alert('GPS取得に失敗しました: ' + error.message);
@@ -53,6 +56,16 @@ if (gpsButton) {
 if (nextButton) {
     nextButton.addEventListener('click', () => {
         const departure = departureInput.value.trim();
+        const area = areaInput.value.trim();
+        if (!departure) {
+            alert('出発地を入力してください');
+            return;
+        }
+        if (!area || area === 'エリアを選択') {
+            alert('エリアを入力してください');
+            return;
+        }
+        localStorage.setItem('area', area);
         localStorage.setItem('departure', departure);
         localStorage.setItem('latitude', userLatitude || '');
         localStorage.setItem('longitude', userLongitude || '');

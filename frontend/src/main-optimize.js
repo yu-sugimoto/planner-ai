@@ -10,6 +10,7 @@ if (optimizeButton) {
         const latitude  = localStorage.getItem('latitude');
         const longitude = localStorage.getItem('longitude');
         const departure = localStorage.getItem('departure');
+        const area      = localStorage.getItem('area');
 
         // 画面入力取得
         const people    = document.getElementById('people').value.trim();
@@ -24,12 +25,13 @@ if (optimizeButton) {
             people,
             budget,
             days,
-            startDate
+            startDate,
+            area
         };
 
         try {
-            // 3000番ポートで動くExpressサーバにPOST
-            const response = await fetch('http://localhost:3000/api/optimize', {
+            // 8000番ポートで動くFastAPIサーバにPOST
+            const response = await fetch('http://localhost:8000/api/optimize', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(requestData)
@@ -41,7 +43,7 @@ if (optimizeButton) {
 
             const resultData = await response.json();
             // 取得したルートを localStorage に格納
-            localStorage.setItem('routeData', JSON.stringify(resultData));
+            localStorage.setItem('resultData', JSON.stringify(resultData));
 
             // 結果ページへ遷移
             window.location.href = 'result.html';
