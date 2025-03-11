@@ -1,0 +1,15 @@
+{
+	"cities": [
+	  { "name": "函館", "location": { "lat": 41.7687, "lng": 140.7288 } },
+	  { "name": "広島", "location": { "lat": 34.3853, "lng": 132.4553 } },
+	  { "name": "神戸", "location": { "lat": 34.6913, "lng": 135.1830 } },
+	  { "name": "名古屋", "location": { "lat": 35.1815, "lng": 136.9066 } },
+	  { "name": "仙台", "location": { "lat": 38.2689, "lng": 140.8721 } },
+	  { "name": "東京", "location": { "lat": 35.6895, "lng": 139.6917 } },
+	  { "name": "横浜", "location": { "lat": 35.4437, "lng": 139.6380 } },
+	  { "name": "大阪", "location": { "lat": 34.6937, "lng": 135.5023 } },
+	  { "name": "京都", "location": { "lat": 35.0116, "lng": 135.7681 } },
+	  { "name": "奈良", "location": { "lat": 34.6851, "lng": 135.8048 } }
+	]
+  }
+  
