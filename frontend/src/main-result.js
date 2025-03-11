@@ -4,16 +4,25 @@ import './style.css';
 
 // ページ読込後に実行
 window.addEventListener('DOMContentLoaded', () => {
-    const routeDataJSON = localStorage.getItem('routeData');
-    let routeData = null;
-
-    if (routeDataJSON) {
-        // { route: [ {lat, lng, name}, ... ] } の構造を想定
-        routeData = JSON.parse(routeDataJSON).route;
-    } else {
-        alert('ルート情報がありません');
+    const resultDataJSON = localStorage.getItem('resultData');
+    if (!resultDataJSON) {
+        alert('結果情報がありません');
         return;
+    } else {
+        console.log(resultDataJSON);
     }
+
+
+    // const routeDataJSON = localStorage.getItem('routeData');
+    // let routeData = null;
+
+    // if (routeDataJSON) {
+    //     // { route: [ {lat, lng, name}, ... ] } の構造を想定
+    //     routeData = JSON.parse(routeDataJSON).route;
+    // } else {
+    //     alert('ルート情報がありません');
+    //     return;
+    // }
 
     // Leaflet の地図初期化
     const map = L.map('map', {
