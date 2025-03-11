@@ -211,8 +211,8 @@ def plan_itinerary(
     departure_time: チェックアウト時刻（分換算、例：10:00 -> 600）
     ホテルのチェックインは18:00～20:00（1080～1200分）に合わせるため、
     相対時間として利用可能時間は:
-      day_total_time = 1200 - departure_time
-      sightseeing_end_time = 1080 - departure_time
+    day_total_time = 1200 - departure_time
+    sightseeing_end_time = 1080 - departure_time
     ※最終日はホテルにチェックインせず、大阪へ帰る
     """
     # 利用可能時間を動的に設定
