@@ -152,6 +152,7 @@ def select_hotel_candidate(
         travel_cost = travel.get("transportation_fare", 1000000)
         arrival_time = current_time + travel_time
         # ホテル到着は指定ウィンドウ内である必要がある
+
         if arrival_time < sightseeing_end_time or arrival_time > day_total_time:
             continue
         total_cost = travel_cost + (dest.get("fare") or 0)
@@ -204,7 +205,7 @@ def select_return_trip(
     }
 
 
-def plan_itinerary(
+def plan_itenerary(
     city: str, budget: int, days: int, departure_time: int, people: int
 ) -> json:
     """
@@ -243,7 +244,7 @@ def plan_itinerary(
     remaining_budget = budget
     visited = set()  # 観光施設（ホテル以外）は一度訪れたら除外
     current_dest = 0  # 初日は大阪（ID:0）から出発
-
+    print(days)
     for day in range(days):
         day_plan = []
         current_time = 0  # その日の経過時間（相対値）

@@ -20,14 +20,14 @@ def get_root():
 @router.post("/api/optimize")
 async def optimize(request: Request):
     request_data = await request.json()
-
+    print(request_data)
     latitude = request_data.get("latitude")
     longitude = request_data.get("longitude")
     departure = request_data.get("departure")
     people = request_data.get("people")
     budget = request_data.get("budget")
     days = request_data.get("days")
-    startDate = 540
+    startDate = request_data.get("startDate")
     area = request_data.get("area")
 
     # パラメータを確認
@@ -42,7 +42,6 @@ async def optimize(request: Request):
 
     # 旅行プランの生成
     result_json = plan_itenerary(area, budget, days, startDate, people)
-
     # 例として受け取ったデータをそのまま返す
     return result_json
 
