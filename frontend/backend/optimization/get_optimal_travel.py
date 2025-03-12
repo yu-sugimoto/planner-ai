@@ -182,7 +182,7 @@ def select_return_trip(
     }
 
 
-def plan_itenerary(city: str, budget: int, days: int, departure_time: int, people: int, start_datetime_str: str) -> str:
+def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetime_str: str) -> str:
     """
     departure_time: チェックアウト時刻（分換算、例:10:00→600）
     ホテルのチェックインは18:00～20:00（1080～1200分）に合わせるため、相対時間として利用可能時間は:
@@ -193,6 +193,7 @@ def plan_itenerary(city: str, budget: int, days: int, departure_time: int, peopl
     ※各日の相対シミュレーション時間は0から始まり、最終的に各日ごとに1440分（＝1日）分のオフセットを加えます。
     出力は、各停留所ごとに緯度・経度、名称、合計費用、利用交通手段、出発・到着時刻、滞在時間（分）を含む形式になります。
     """
+    departure_time = datetime.fromisoformat(start_datetime_str).hour * 60 + datetime.fromisoformat(start_datetime_str).minute
     # 利用可能な相対時間（分）
     day_total_time = 1400 - departure_time
     sightseeing_end_time = 1080 - departure_time
@@ -342,18 +343,16 @@ def plan_itenerary(city: str, budget: int, days: int, departure_time: int, peopl
 
 
 if __name__ == "__main__":
-    # 例: python plan_itinerary.py kobe 5000 1 600 2 "2025-03-11T15:00:00+09:00"
+    # 例: python3 get_optimal_travel.py kobe 5000 1 2 "2025-03-11T15:00:00+09:00"
     import sys
     if len(sys.argv) != 6:
-        print("Usage: python plan_itinerary.py <city> <budget> <days>  <people> <start_datetime>")
+        print("Usage: python get_optimal_travel.py <city> <budget> <days>  <people> <start_datetime>")
         sys.exit(1)
     city = sys.argv[1]
     budget = int(sys.argv[2])
     days = int(sys.argv[3])
     people = int(sys.argv[4])
     start_datetime_str = sys.argv[5]    # 例: "2025-03-11T15:00:00+09:00"
-    # start_datetime_strから出発時刻（分換算）を取得
-    departure_time = datetime.fromisoformat(start_datetime_str).hour * 60 + datetime.fromisoformat(start_datetime_str).minute
     # print(f"detime: {departure_time}")
-    result = plan_itenerary(city, budget, days, departure_time, people, start_datetime_str)
+    result = plan_itenerary(city, budget, days, people, start_datetime_str)
     print(result)
