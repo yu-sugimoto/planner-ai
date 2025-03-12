@@ -187,3 +187,17 @@ $ python3 get_optimal_travel.py 09:00 hakodate 10000 2
 # メモ
 本質部分は plan_itinerary関数にあるので、バックエンドにはその関数とその上にある要素をコピペして持っていっても良いかもしれない。
 現在はdataディレクトリにあるデータから読み出すような仕様となっている。DBからの読み込み速度などを考えると、このプログラムに関しては本番環境もdataディレクトリから読み込む形で良いと考えている。
+
+# 新しい都市の追加方法
+## 観光地の追加
+・cities.jsonに追加したい都市の名前と緯度経度を追加
+・すでに登録した都市の名前を get_tourist_spots.pyのalready_collected_citiesに追加して、実行
+・update_tourist_spots.pyを実行して、tourist_spots_with_info2.jsonを更新
+## ホテルの追加
+・get_hotels_spots.pyを実行して、hotels.jsonを更新
+・update_hotels.pyを実行してhotels_with_info2.jsonを更新
+・ホテルの情報をtourist_spots.jsonに追加
+## 観光地とホテルの情報の統合
+・merge_hotel_info.pyを実行して、combined_with_info.jsonを更新
+
+## transporatation_costsの更新

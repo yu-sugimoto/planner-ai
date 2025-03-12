@@ -10,8 +10,8 @@ load_dotenv(".env.local")
 API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 # 定数設定
-QUERY_RADIUS = 40000  # 各グリッド検索の半径（15km）
-RESULTS_PER_CITY = 3  # 各都市で取得したいホテル数
+QUERY_RADIUS = 40000  # 各グリッド検索の半径
+RESULTS_PER_CITY = 30  # 各都市で取得したいホテル数
 GRID_DIM = 4  # 例：4×4 のグリッド（計16クエリ）
 STEP_KM = 10  # グリッド間の間隔（km）
 
@@ -115,24 +115,37 @@ def get_hotels_for_city(city, center):
 
 def main():
     # hakodate, kobe, hiroshima の各都市の中心座標を定義
-    cities_data = {
-        "cities": [
-            {"name": "hakodate", "location": {"lat": 41.7687, "lng": 140.7288}},
-            {"name": "kobe", "location": {"lat": 34.6901, "lng": 135.1955}},
-            {"name": "hiroshima", "location": {"lat": 34.3853, "lng": 132.4553}},
-        ]
-    }
+    cities_data = {}
+    with open("data/cities.json", "r", encoding="utf-8") as f:
+        cities_data = json.load(f)
+
+    already_hotels_data = {}
+    with open("data/hotels.json", "r", encoding="utf-8") as f:
+        already_hotels_data = json.load(f)
+
+    already_collected_cities = ["hakodate", "hiroshima", "kobe"]
+
 
     all_hotels = {}
     for city in cities_data["cities"]:
         print(f"Processing {city['name']}...")
+        if city['name'] in already_collected_cities:
+            print(f"Skipping {city['name']} since it's already collected.")
+            continue
         hotels = get_hotels_for_city(city["name"], city["location"])
         all_hotels[city["name"]] = hotels
 
+    # already_hotels_data と統合
+    for city, hotels in all_hotels.items():
+        if city in already_hotels_data:
+            already_hotels_data[city] += hotels
+        else:
+            already_hotels_data[city] = hotels
+            
     # 取得結果を hotels.json に保存
     with open("data/hotels.json", "w", encoding="utf-8") as f:
-        json.dump(all_hotels, f, ensure_ascii=False, indent=2)
-    print("Hotel data collection complete!")
+        json.dump(already_hotels_data, f, ensure_ascii=False, indent=2)
+    print("Data collection complete!")
 
 
 if __name__ == "__main__":
