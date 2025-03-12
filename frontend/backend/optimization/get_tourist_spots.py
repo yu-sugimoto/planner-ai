@@ -91,7 +91,6 @@ def get_tourist_spots_for_city(city, center):
                             },
                         }
                         unique_places[pid] = facility
-            # 各クエリ間は軽く待機（API利用制限対策）
             time.sleep(1)
         except Exception as e:
             print(f"API request failed for {city} at {point}: {str(e)}")
@@ -105,9 +104,14 @@ def main():
     with open("data/cities.json", "r", encoding="utf-8") as f:
         cities_data = json.load(f)
 
+    already_collected_cities = ["hakodate", "hiroshima", "kobe"]
+
     all_spots = {}
     for city in cities_data["cities"]:
         print(f"Processing {city['name']}...")
+        if city['name'] in already_collected_cities:
+            print(f"Skipping {city['name']} since it's already collected.")
+            continue
         spots = get_tourist_spots_for_city(city["name"], city["location"])
         all_spots[city["name"]] = spots
 

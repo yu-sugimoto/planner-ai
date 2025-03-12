@@ -994,5 +994,1567 @@
       },
       "ishotel": true
     }
+  ],
+  "nagoya": [
+    {
+      "name": "Nagoya Tokyu Hotel",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">4-chōme-6-8 Sakae, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0008</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1685161,
+        "lng": 136.9136107
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Nagoya",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-3-3 Sakae, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0008</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.167682,
+        "lng": 136.89452559999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Chubu Electric Power MIRAI TOWER",
+      "category": "Tourist Attraction",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">3-chōme-6-１５先 Nishiki, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0003</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.172345199999995,
+        "lng": 136.90833800000001
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Nagoya Marriott Associa Hotel",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-1-4 Meieki, Nakamura Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">450-6002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1708849,
+        "lng": 136.8832276
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Toyoko Inn Nagoya Meiekiminami",
+      "category": "Hotel",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">2-chōme-3-30 Meiekiminami, Nakamura Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">450-0003</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1649009,
+        "lng": 136.89079429999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Keihan Nagoya",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">3-chōme-2-1 Nishiki, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0003</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.173176600000005,
+        "lng": 136.90315719999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Nagoya Crown Hotel",
+      "category": "Hotel",
+      "rating": 3.7,
+      "address": "<span class=\"street-address\">1-chōme-8-33 Sakae, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0008</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1668982,
+        "lng": 136.8937579
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Courtyard Nagoya",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-17-6 Sakae, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-0008</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.165655,
+        "lng": 136.893061
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Nagoya Kanko Hotel",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-19-30 Nishiki, Naka Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">460-8608</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1687843,
+        "lng": 136.8955195
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Aqua Ignis",
+      "category": "Resort hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">4800-1 Komono, Mie District</span>, <span class=\"region\">Mie</span> <span class=\"postal-code\">510-1233</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0133699,
+        "lng": 136.4825798
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Mitsui Garden Hotel Nagoya Premier",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">SYMPHONY TOYOTA BLDG., 4-chōme-11-27 Meieki, Nakamura Ward, Nagoya</span>, <span class=\"region\">Aichi</span> <span class=\"postal-code\">450-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.1699313,
+        "lng": 136.8868475
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "sendai": [
+    {
+      "name": "APA HOTEL SENDAIEKI-ITSUTSUBASHI",
+      "category": "Hotel",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">3-chōme-1-1 Itsutsubashi, Wakabayashi Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">984-0022</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2551309,
+        "lng": 140.882331
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Westin Sendai",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-9-1 Ichibanchō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0811</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2564637,
+        "lng": 140.8762422
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sendai Kokusai Hotel",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">4-chōme-6-1 Chūō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0021</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2569005,
+        "lng": 140.8777838
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Zuiho",
+      "category": "Japanese inn",
+      "rating": 4.2,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒982-0241</span> <span class=\"region\">Miyagi</span>, <span class=\"street-address\">Sendai, Taihaku Ward, Akiumachi Yumoto, 字</span> 除２６−１",
+      "location": {
+        "lat": 38.221894999999996,
+        "lng": 140.7346426
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sotetsu Fresa Inn Sendai",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">4-chōme-4-5 Chūō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0021</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2581657,
+        "lng": 140.87783919999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "三井ガーデンホテル仙台",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-4-6 Honchō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0014</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2635795,
+        "lng": 140.8735139
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "KOKO HOTEL Sendai Kotodai Park",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">2-chōme-15-10 Honchō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0014</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2645096,
+        "lng": 140.8729171
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Keihan Sendai",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">3-chōme-3-5 Chūō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0021</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2597865,
+        "lng": 140.8767287
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Monterey Sendai",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">4-chōme-1-8 Chūō, Aoba Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">980-0021</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2581428,
+        "lng": 140.8805429
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Vista Sendai",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-7-3 Tsutsujigaoka, Miyagino Ward, Sendai</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">983-0852</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.2582137,
+        "lng": 140.8854335
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Matsushima Taikanso",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Inuta-10-76 Matsushima, Miyagi District</span>, <span class=\"region\">Miyagi</span> <span class=\"postal-code\">981-0213</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 38.3641266,
+        "lng": 141.056538
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Road Station Sagae Cherry Land",
+      "category": "Rest Stop",
+      "rating": 3.9,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒990-0523</span> <span class=\"region\">Yamagata</span>, <span class=\"street-address\">Sagae, Yakuwa</span>, 川原 919−8",
+      "location": {
+        "lat": 38.3988169,
+        "lng": 140.2713015
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Ginzan-so",
+      "category": "Japanese inn",
+      "rating": 4.3,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒999-4333</span> <span class=\"region\">山形県</span><span class=\"street-address\">尾花沢市銀山新畑８５</span>",
+      "location": {
+        "lat": 38.5722719,
+        "lng": 140.5284019
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "tokyo": [
+    {
+      "name": "Keio Plaza Hotel Tokyo",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-2-1 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8330</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6902544,
+        "lng": 139.6942516
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Shinjuku Washington Hotel",
+      "category": "Hotel",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">3-chōme-2-9 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8336</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6868353,
+        "lng": 139.69325
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Shinagawa Prince Hotel",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">4-chōme-10-30 Takanawa, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">108-8611</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6279119,
+        "lng": 139.7367526
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA Hotel & Resort Yokohama Bay Tower",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-25-3 Kaigandōri, Naka Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">231-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4518637,
+        "lng": 139.6381042
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Imperial Hotel Tokyo",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-chōme-1-1 Uchisaiwaichō, Chiyoda City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">100-8558</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.672454,
+        "lng": 139.7579015
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Gracery Shinjuku",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">ホテルグレイスリー新宿 1F, 1-chōme-19-1 Kabukichō, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8466</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6953268,
+        "lng": 139.70203419999999
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Prince Park Tower Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">4-chōme-8-1 Shibakōen, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-8563</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6552627,
+        "lng": 139.7470359
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">6-chōme-6-2 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-0023</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6925835,
+        "lng": 139.6911889
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Okura Tokyo",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-chōme-10-4 Toranomon, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6671751,
+        "lng": 139.7438601
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA HOTEL Roppongi Six",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">2-chōme-3-11 Roppongi, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">106-0032</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6662355,
+        "lng": 139.7373987
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA Hotel & Resort Tokyo Bay Makuhari",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2-chōme-3 Hibino, Mihama Ward, Chiba</span>, <span class=\"postal-code\">261-0021</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6441113,
+        "lng": 140.0371528
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "ANA InterContinental Tokyo, an IHG Hotel",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-12-33 Akasaka, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">107-0052</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6682896,
+        "lng": 139.7408307
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "yokohama": [
+    {
+      "name": "APA Hotel & Resort Yokohama Bay Tower",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-25-3 Kaigandōri, Naka Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">231-0002</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4518637,
+        "lng": 139.6381042
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hakone Kowakien Yunessun",
+      "category": "Public Bath",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">1297 Ninotaira, Hakone, Ashigarashimo District</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">250-0407</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.239422399999995,
+        "lng": 139.0453369
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "InterContinental Yokohama Grand, an IHG Hotel",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-1-1 Minatomirai, Nishi Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">220-8522</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4575951,
+        "lng": 139.6372159
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hyatt Regency Yokohama",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">280-2 Yamashitachō, Naka Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">231-8340</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.44581,
+        "lng": 139.6453042
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Yokohama Bay Hotel Tokyu",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-chōme-3-7 Minatomirai, Nishi Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">220-8543</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.456854,
+        "lng": 139.635165
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Westin Yokohama",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">4-chōme-2-8 Minatomirai, Nishi Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">220-0012</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4573429,
+        "lng": 139.6271914
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Mitsui Garden Hotel Yokohama Minatomirai PREMIER",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">3-chōme-3-3 Minatomirai, Nishi Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">220-0012</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4567277,
+        "lng": 139.6294477
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Yokohama Royal Park Hotel",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-chōme-2-1-3 Minatomirai, Nishi Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">220-0012</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.454338899999996,
+        "lng": 139.6313791
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Shin Yokohama Prince Hotel",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3-chōme-4 Shinyokohama, Kohoku Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">222-8533</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.5096427,
+        "lng": 139.61930279999999
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Yokohama Sakuragicho Washington Hotel",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-101-1 Sakuragichō, Naka Ward, Yokohama</span>, <span class=\"region\">Kanagawa</span> <span class=\"postal-code\">231-0062</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.4506306,
+        "lng": 139.6326784
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Shinagawa Prince Hotel",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">4-chōme-10-30 Takanawa, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">108-8611</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6279119,
+        "lng": 139.7367526
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Grand Prince Hotel Shin Takanawa",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">3-chōme-13-1 Takanawa, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">108-8612</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6300117,
+        "lng": 139.7334779
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Gajoen Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-8-1 Shimomeguro, Meguro City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">153-0064</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6317881,
+        "lng": 139.7137936
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "GRAND NIKKO TOKYO DAIBA",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">2-chōme-6-1 Daiba, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">135-8701</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6251435,
+        "lng": 139.7715694
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Westin Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-chōme-4-1 Mita, Meguro City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">153-8580</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6415837,
+        "lng": 139.7154177
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Tokyo Odaiba",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-9-1 Daiba, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">135-8625</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.626410799999995,
+        "lng": 139.7706744
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sheraton Miyako Hotel Tokyo",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-chōme-1-50 Shirokanedai, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">108-8640</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6392593,
+        "lng": 139.7303009
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Ryugujo Spa Hotel Mikazuki",
+      "category": "Hotel",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">1 Kitahamachō, Kisarazu</span>, <span class=\"region\">Chiba</span> <span class=\"postal-code\">292-0006</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.420882,
+        "lng": 139.8975969
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Prince Park Tower Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">4-chōme-8-1 Shibakōen, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-8563</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6552627,
+        "lng": 139.7470359
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA HOTEL Roppongi Six",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">2-chōme-3-11 Roppongi, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">106-0032</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6662355,
+        "lng": 139.7373987
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Grand Hyatt Tokyo",
+      "category": "Resort hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">6-chōme-10-3 Roppongi, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">106-0032</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6600777,
+        "lng": 139.7283208
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Tokyo Prince Hotel",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">3-chōme-3-1 Shibakōen, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-8560</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.658961999999995,
+        "lng": 139.7481391
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sheraton Grande Tokyo Bay Hotel",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">1-9 Maihama, Urayasu</span>, <span class=\"region\">Chiba</span> <span class=\"postal-code\">279-0031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.626202899999996,
+        "lng": 139.8782435
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Conrad Tokyo",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-chōme-9-1 Higashishinbashi, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-7337</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6628932,
+        "lng": 139.76128989999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Keio Plaza Hotel Tokyo",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-2-1 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8330</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6902544,
+        "lng": 139.6942516
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Shinjuku Washington Hotel",
+      "category": "Hotel",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">3-chōme-2-9 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8336</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6868353,
+        "lng": 139.69325
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Imperial Hotel Tokyo",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-chōme-1-1 Uchisaiwaichō, Chiyoda City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">100-8558</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.672454,
+        "lng": 139.7579015
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Gracery Shinjuku",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">ホテルグレイスリー新宿 1F, 1-chōme-19-1 Kabukichō, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-8466</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6953268,
+        "lng": 139.70203419999999
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Tokyo",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">6-chōme-6-2 Nishishinjuku, Shinjuku City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">160-0023</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6925835,
+        "lng": 139.6911889
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Okura Tokyo",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">2-chōme-10-4 Toranomon, Minato City</span>, <span class=\"region\">Tokyo</span> <span class=\"postal-code\">105-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.6671751,
+        "lng": 139.7438601
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "osaka": [
+    {
+      "name": "梅田駅",
+      "category": "Lodging",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Osaka-Umeda Station, 3-chōme-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.70133020000001,
+        "lng": 135.4971313
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA Hotel & Resort Ōsaka Umeda-eki Tower",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2-chōme-8-32 Sonezaki, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0057</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998707,
+        "lng": 135.5015389
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Hankyu RESPIRE OSAKA",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-1 Ōfukachō, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7047014,
+        "lng": 135.4961473
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sotetsu Grand Fresa Osaka Namba",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-1-13 Nipponbashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0073</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.668305,
+        "lng": 135.5064161
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "RIHGA Royal Hotel Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-3-68 Nakanoshima, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0005</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6902695,
+        "lng": 135.4871674
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Nikko Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-3-3 Nishishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0086</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6739002,
+        "lng": 135.49971050000002
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-8-8 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998436,
+        "lng": 135.4959289
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Candeo Hotels Osaka Namba",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-2-5 Higashishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0083</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6705797,
+        "lng": 135.50604959999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel New Otani Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-4-1 Shiromi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">540-8578</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.690928299999996,
+        "lng": 135.5328811
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Granvia Osaka",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3-chōme-1-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.701726,
+        "lng": 135.4963754
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "kyoto": [
+    {
+      "name": "梅田駅",
+      "category": "Lodging",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Osaka-Umeda Station, 3-chōme-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.70133020000001,
+        "lng": 135.4971313
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA Hotel & Resort Ōsaka Umeda-eki Tower",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2-chōme-8-32 Sonezaki, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0057</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998707,
+        "lng": 135.5015389
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Hankyu RESPIRE OSAKA",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-1 Ōfukachō, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7047014,
+        "lng": 135.4961473
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sotetsu Grand Fresa Osaka Namba",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-1-13 Nipponbashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0073</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.668305,
+        "lng": 135.5064161
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "RIHGA Royal Hotel Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-3-68 Nakanoshima, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0005</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6902695,
+        "lng": 135.4871674
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Nikko Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-3-3 Nishishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0086</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6739002,
+        "lng": 135.49971050000002
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-8-8 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998436,
+        "lng": 135.4959289
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Candeo Hotels Osaka Namba",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-2-5 Higashishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0083</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6705797,
+        "lng": 135.50604959999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel New Otani Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-4-1 Shiromi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">540-8578</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.690928299999996,
+        "lng": 135.5328811
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Granvia Osaka",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3-chōme-1-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.701726,
+        "lng": 135.4963754
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Miyako Hotel Kyoto Hachijo",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">17 Nishikujō Inmachi, Minami Ward, Kyoto</span>, <span class=\"postal-code\">601-8412</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.983951499999996,
+        "lng": 135.75572209999999
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Onyado Nono Kyoto Shichijo",
+      "category": "Hotel",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">491番地 Zaimokuchō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8146</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.989039399999996,
+        "lng": 135.7623577
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Lake Biwa Otsu Prince Hotel",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">4-chōme-7-7 Nionohama, Otsu</span>, <span class=\"region\">Shiga</span> <span class=\"postal-code\">520-8520</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0049625,
+        "lng": 135.8891339
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Rihga Royal Hotel Kyoto",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒600-8237</span> <span class=\"region\">Kyoto</span>, <span class=\"street-address\">Shimogyo Ward, Taimatsuchō, 1番地</span>",
+      "location": {
+        "lat": 34.9863853,
+        "lng": 135.75269509999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Westin Miyako Kyoto",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1 Awadaguchi Kachōchō, Higashiyama Ward, Kyoto</span>, <span class=\"postal-code\">605-0052</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0081281,
+        "lng": 135.7874855
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Mitsui Garden Hotel Kyōto Shijō",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">707-1 Myōdenjichō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8472</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0029696,
+        "lng": 135.7550375
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Keio Prelia Hotel Kyoto Karasuma Gojo",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">396 Gojōkarasumachō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8418</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.9983074,
+        "lng": 135.7594779
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Cross Hotel Kyoto",
+      "category": "Hotel",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">71-1 Daikokuchō, Nakagyo Ward, Kyoto</span>, <span class=\"postal-code\">604-8031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0082277,
+        "lng": 135.7697253
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Okura Kyoto",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒604-8558</span> <span class=\"region\">Kyoto</span>, <span class=\"street-address\">Nakagyo Ward, Ichinofunairichō</span>, 河原町御池",
+      "location": {
+        "lat": 35.011848199999996,
+        "lng": 135.76942649999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Suisyun",
+      "category": "Public Bath",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">5-1 Yamatechūō, Kyotanabe</span>, <span class=\"region\">Kyoto</span> <span class=\"postal-code\">610-0356</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8345141,
+        "lng": 135.7235856
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "karaksa hotel grande Shin-Osaka Tower",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">3-chōme-3-24 Miyahara, Yodogawa Ward, Osaka</span>, <span class=\"postal-code\">532-0003</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7330476,
+        "lng": 135.4950914
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Plaza Osaka",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">1-chōme-9-15 Shinkitano, Yodogawa Ward, Osaka</span>, <span class=\"postal-code\">532-0025</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7168758,
+        "lng": 135.4809828
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Ace Hotel Kyoto",
+      "category": "Hotel",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">245-2 Kurumayachō, Nakagyo Ward, Kyoto</span>, <span class=\"postal-code\">604-8185</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.009774,
+        "lng": 135.7599798
+      },
+      "ishotel": true
+      
+    }
+  ],
+  "nara": [
+    {
+      "name": "梅田駅",
+      "category": "Lodging",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">Osaka-Umeda Station, 3-chōme-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.70133020000001,
+        "lng": 135.4971313
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "APA Hotel & Resort Ōsaka Umeda-eki Tower",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">2-chōme-8-32 Sonezaki, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0057</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998707,
+        "lng": 135.5015389
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Hankyu RESPIRE OSAKA",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1-1 Ōfukachō, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7047014,
+        "lng": 135.4961473
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Sotetsu Grand Fresa Osaka Namba",
+      "category": "Hotel",
+      "rating": 3.9,
+      "address": "<span class=\"street-address\">1-chōme-1-13 Nipponbashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0073</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.668305,
+        "lng": 135.5064161
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "RIHGA Royal Hotel Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">5-chōme-3-68 Nakanoshima, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0005</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6902695,
+        "lng": 135.4871674
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Nikko Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-3-3 Nishishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0086</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6739002,
+        "lng": 135.49971050000002
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hilton Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-8-8 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6998436,
+        "lng": 135.4959289
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Candeo Hotels Osaka Namba",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">2-chōme-2-5 Higashishinsaibashi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">542-0083</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6705797,
+        "lng": 135.50604959999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel New Otani Osaka",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">1-chōme-4-1 Shiromi, Chuo Ward, Osaka</span>, <span class=\"postal-code\">540-8578</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.690928299999996,
+        "lng": 135.5328811
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Granvia Osaka",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">3-chōme-1-1 Umeda, Kita Ward, Osaka</span>, <span class=\"postal-code\">530-0001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.701726,
+        "lng": 135.4963754
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Centara Grand Hotel Osaka",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">2-chōme-11-50 Nanbanaka, Naniwa Ward, Osaka</span>, <span class=\"postal-code\">556-0011</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.660291,
+        "lng": 135.5022983
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Suisyun",
+      "category": "Public Bath",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">5-1 Yamatechūō, Kyotanabe</span>, <span class=\"region\">Kyoto</span> <span class=\"postal-code\">610-0356</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.8345141,
+        "lng": 135.7235856
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Nara Hotel",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">1096 Takabatakechō, Nara</span>, <span class=\"postal-code\">630-8301</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6798175,
+        "lng": 135.83382749999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "JW Marriott Hotel Nara",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1 Chome-1 Sanjooji, Nara</span>, <span class=\"postal-code\">630-8013</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6839565,
+        "lng": 135.8052131
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Nikko Nara",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">8-1 Sanjōhonmachi, Nara</span>, <span class=\"postal-code\">630-8122</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.681576199999995,
+        "lng": 135.8183918
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Onyado Nono Nara",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">1-chōme-1-6 Ōmiyachō, Nara</span>, <span class=\"postal-code\">630-8115</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6823158,
+        "lng": 135.8201887
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Nara Royal Hotel",
+      "category": "Hotel",
+      "rating": 3.8,
+      "address": "<span class=\"street-address\">254-1 Hokkejichō, Nara</span>, <span class=\"postal-code\">630-8001</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6874074,
+        "lng": 135.8051988
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Grand Mercure Nara Kashihara",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒634-0063</span> <span class=\"region\">Nara</span>, <span class=\"street-address\">Kashihara, Kumechō, 652番地2</span>",
+      "location": {
+        "lat": 34.4847246,
+        "lng": 135.7951974
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Kasagi Camping Ground",
+      "category": "Campground",
+      "rating": 4,
+      "address": "<span class=\"street-address\">Tsukuda Kasagi, Soraku District</span>, <span class=\"region\">Kyoto</span> <span class=\"postal-code\">619-1303</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7590663,
+        "lng": 135.9361554
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Daiwa Roynet Hotel Nara",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">11-12 Sanjōhonmachi, Nara</span>, <span class=\"postal-code\">630-8122</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6802862,
+        "lng": 135.8176466
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Iroha Grand Hotel Kintetsu Nara Ekimae",
+      "category": "Hotel",
+      "rating": 4.5,
+      "address": "<span class=\"street-address\">30-1 Konishichō, Nara</span>, <span class=\"postal-code\">630-8226</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.6827439,
+        "lng": 135.8275372
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Hotel Agora Osaka Moriguchi",
+      "category": "Hotel",
+      "rating": 4,
+      "address": "<span class=\"street-address\">10-5 Kawaharachō, Moriguchi</span>, <span class=\"region\">Osaka</span> <span class=\"postal-code\">570-0038</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.7350206,
+        "lng": 135.5658619
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Miyako Hotel Kyoto Hachijo",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">17 Nishikujō Inmachi, Minami Ward, Kyoto</span>, <span class=\"postal-code\">601-8412</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.983951499999996,
+        "lng": 135.75572209999999
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Onyado Nono Kyoto Shichijo",
+      "category": "Hotel",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">491番地 Zaimokuchō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8146</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.989039399999996,
+        "lng": 135.7623577
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Lake Biwa Otsu Prince Hotel",
+      "category": "Hotel",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">4-chōme-7-7 Nionohama, Otsu</span>, <span class=\"region\">Shiga</span> <span class=\"postal-code\">520-8520</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0049625,
+        "lng": 135.8891339
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Rihga Royal Hotel Kyoto",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒600-8237</span> <span class=\"region\">Kyoto</span>, <span class=\"street-address\">Shimogyo Ward, Taimatsuchō, 1番地</span>",
+      "location": {
+        "lat": 34.9863853,
+        "lng": 135.75269509999998
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "The Westin Miyako Kyoto",
+      "category": "Hotel",
+      "rating": 4.3,
+      "address": "<span class=\"street-address\">1 Awadaguchi Kachōchō, Higashiyama Ward, Kyoto</span>, <span class=\"postal-code\">605-0052</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0081281,
+        "lng": 135.7874855
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Mitsui Garden Hotel Kyōto Shijō",
+      "category": "Hotel",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">707-1 Myōdenjichō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8472</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0029696,
+        "lng": 135.7550375
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Keio Prelia Hotel Kyoto Karasuma Gojo",
+      "category": "Hotel",
+      "rating": 4.4,
+      "address": "<span class=\"street-address\">396 Gojōkarasumachō, Shimogyo Ward, Kyoto</span>, <span class=\"postal-code\">600-8418</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 34.9983074,
+        "lng": 135.7594779
+      },
+      "ishotel": true
+      
+    },
+    {
+      "name": "Cross Hotel Kyoto",
+      "category": "Hotel",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">71-1 Daikokuchō, Nakagyo Ward, Kyoto</span>, <span class=\"postal-code\">604-8031</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 35.0082277,
+        "lng": 135.7697253
+      },
+      "ishotel": true
+      
+    }
   ]
 }
