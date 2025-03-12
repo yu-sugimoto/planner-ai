@@ -1,21 +1,15 @@
-// src/main-result.js
-
 import './style.css';
 
 // ページ読込後に実行
 window.addEventListener('DOMContentLoaded', () => {
-    const routeDataJSON = localStorage.getItem('routeData');
-    let routeData = null;
-
-    if (routeDataJSON) {
-        // { route: [ {lat, lng, name}, ... ] } の構造を想定
-        routeData = JSON.parse(routeDataJSON).route;
-    } else {
-        alert('ルート情報がありません');
+    const resultDataJSON = localStorage.getItem('resultData');
+    if (!resultDataJSON) {
+        alert('結果情報がありません');
         return;
     }
 
-    // Leaflet の地図初期化
+    const resultData = JSON.parse(resultDataJSON);
+
     const map = L.map('map', {
         center: [35.681236, 139.767125], // 東京駅付近
         zoom: 12
@@ -29,24 +23,29 @@ window.addEventListener('DOMContentLoaded', () => {
     // リスト表示エリア
     const routeList = document.getElementById('routeList');
 
-    // マーカーをまとめる
     const markers = [];
+    const routeCoordinates = [];
 
-    // ルートデータをもとにマーカー & リスト生成
-    routeData.forEach((point, index) => {
+    resultData.route.forEach((point, index) => {
+        // マーカー追加
         const marker = L.marker([point.lat, point.lng]).addTo(map);
         marker.bindPopup(point.name);
         markers.push(marker);
 
-        // リストに追加
+        routeCoordinates.push([point.lat, point.lng]);
         const div = document.createElement('div');
         div.classList.add('uk-card', 'uk-card-default', 'uk-card-body', 'uk-margin-small');
-        div.innerHTML = `<strong>${index + 1}. ${point.name}</strong><br>
-                     緯度: ${point.lat}, 経度: ${point.lng}`;
+        div.innerHTML = `
+            <strong>${index + 1}. ${point.name}</strong><br>
+            交通手段: ${point.transportation_method}<br>
+            出発時刻: ${point.departure_time}<br>
+            到着時刻: ${point.arrival_time}<br>
+            滞在時間(分): ${point.stay_duration_minutes}<br>
+            合計コスト: ${point.total_cost}
+        `;
         routeList.appendChild(div);
     });
 
-    // 全マーカーを含むように自動ズーム調整
-    const group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds(), { padding: [50, 50] });
+    const polyline = L.polyline(routeCoordinates, { color: 'blue' }).addTo(map);
+    map.fitBounds(polyline.getBounds(), { padding: [50, 50] });
 });

@@ -11,9 +11,9 @@
     <script type="module" src="/src/main-index.js"></script>
 </head>
 <body>
-<nav class="uk-navbar-container" uk-navbar>
+<nav class="uk-navbar-container uk-container" uk-navbar>
     <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="#">トップページ</a>
+        <a class="uk-navbar-item uk-logo" href="#">旅行アプリ</a>
     </div>
 </nav>
 
@@ -34,8 +34,8 @@
 
         <div class="uk-margin">
             <label class="uk-form-label" for="area">観光エリア</label>
-            <div class="uk-button uk-form-select" data-uk-form-select>
-                <select id="area">
+            <div class="uk-form-controls" style="width: 40%;">
+                <select class="uk-select" id="area">
                     <option value="エリアを選択">エリアを選択</option>
                     <option value="hakodate">函館</option>
                     <option value="kobe">神戸</option>
@@ -43,7 +43,6 @@
                 </select>
             </div>
         </div>
-        
         <div class="uk-margin">
             <button class="uk-button uk-button-primary" type="button" id="nextButton">次へ</button>
         </div>
