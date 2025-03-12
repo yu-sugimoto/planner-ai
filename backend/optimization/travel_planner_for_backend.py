@@ -1,9 +1,7 @@
 import sys
 import json
 from typing import Dict, Any
-
-
-DATA_DIRECTORY = "optimization/data"
+from datetime import datetime, timedelta
 
 DATA_DIRECTORY = "data"
 
@@ -184,7 +182,7 @@ def select_return_trip(
     }
 
 
-def plan_itenerary(city: str, budget: int, days: int, departure_time: int, people: int, start_datetime_str: str) -> str:
+def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetime_str: str) -> str:
     """
     departure_time: チェックアウト時刻（分換算、例:10:00→600）
     ホテルのチェックインは18:00～20:00（1080～1200分）に合わせるため、相対時間として利用可能時間は:
@@ -195,6 +193,7 @@ def plan_itenerary(city: str, budget: int, days: int, departure_time: int, peopl
     ※各日の相対シミュレーション時間は0から始まり、最終的に各日ごとに1440分（＝1日）分のオフセットを加えます。
     出力は、各停留所ごとに緯度・経度、名称、合計費用、利用交通手段、出発・到着時刻、滞在時間（分）を含む形式になります。
     """
+    departure_time = datetime.fromisoformat(start_datetime_str).hour * 60 + datetime.fromisoformat(start_datetime_str).minute
     # 利用可能な相対時間（分）
     day_total_time = 1400 - departure_time
     sightseeing_end_time = 1080 - departure_time
