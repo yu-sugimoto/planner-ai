@@ -12,7 +12,7 @@ db_generator = get_db()  # ジェネレータを作成
 db = next(db_generator)  # セッションを取得
 
 # jsonファイルの読み込み
-with open("app/spots/tourist_spots_with_info.json", "r", encoding="utf-8") as f:
+with open("optimization/data/combined_with_info.json", "r", encoding="utf-8") as f:
     spots = json.load(f)
 
 # 観光地エリアのリストを取得
