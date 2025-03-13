@@ -9,7 +9,8 @@ export default defineConfig({
             input: {
                 main: 'index.html',
                 optimize: 'optimize.html',
-                result: 'result.html'
+                result: 'result.html',
+                destination: 'destination.html'
             }
         }
     }

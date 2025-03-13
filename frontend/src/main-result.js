@@ -36,7 +36,8 @@ window.addEventListener('DOMContentLoaded', () => {
         const div = document.createElement('div');
         div.classList.add('uk-card', 'uk-card-default', 'uk-card-body', 'uk-margin-small');
         div.innerHTML = `
-            <strong>${index + 1}. ${point.name}</strong><br>
+            <strong>${index + 1}. ${point.name}</strong>
+            <a href="destination.html?name=${point.name}" style="margin-left: 10px;">詳細</a><br>
             交通手段: ${point.transportation_method}<br>
             出発時刻: ${point.departure_time}<br>
             到着時刻: ${point.arrival_time}<br>
