@@ -5,7 +5,7 @@ import random
 from typing import Dict, Any
 from datetime import datetime, timedelta
 
-DATA_DIRECTORY = "data"
+DATA_DIRECTORY = "../optimization/data"
 
 
 def load_data():
@@ -240,7 +240,6 @@ def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetim
     best_itinerary = None
     best_score = -1000000
 
-
     tourist_data, transportation_data, osaka_transportation_data = load_data()
     if city not in tourist_data:
         raise ValueError(f"{city} のデータが見つかりません。")
@@ -260,10 +259,8 @@ def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetim
 
     while time.perf_counter() - start < 1.5:
         # 毎回異なるプランを生成するため、観光地の順番をランダムにシャッフル
-        #print(f"counter: {counter}")
-        #counter += 1
-        
-        random.shuffle(destinations)
+        # print(f"counter: {counter}")
+        # counter += 1
 
         # 大阪駅の情報（ID:0）を定義
         osaka_station = {
@@ -279,9 +276,24 @@ def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetim
         remaining_budget = budget
         visited = set()  # 観光施設（ホテル以外）は一度訪れたら除外
 
+        destinations = sorted(destinations, key=lambda x: x.get("fare", 1000000))
+
         # 各日ごとにシミュレーション（※複数日対応の場合、各日のオフセットを後で加算）
         for day in range(days):
             day_plan = []
+            if day == 0:
+                day_plan.append({
+                    "destination_id": 0,
+                    "departure_offset": 0,
+                    "travel_cost": 0,
+                    "visit_cost": 0,
+                    "travel_time": 0,
+                    "visit_time": 0,
+                    "arrival_offset": 0,
+                    "total_cost": 0,
+                    "transportation_method": "出発"
+                })
+            
             current_time = 0  # その日の相対経過時間（分）
             current_dest = 0  # 初日は大阪（ID:0）から出発
             # 観光施設（ホテル以外）の訪問を追加
@@ -331,8 +343,7 @@ def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetim
                     if candidate is None:
                         candidate = candidate_info
                     else:
-                        # ランダム要素を追加：50%の確率で新しい候補を採用
-                        if random.random() < 0.5:
+                        if random.random() < 0.75:
                             candidate = candidate_info
                         else:
                             if candidate_info["travel_cost"] < candidate["travel_cost"]:
@@ -419,5 +430,9 @@ def plan_itenerary(city: str, budget: int, days: int, people: int, start_datetim
 
             best_score = score
             best_itinerary = final_output
+        random.shuffle(destinations)
 
     return json.dumps(best_itinerary, indent=2, ensure_ascii=False)
+
+# TODO: 焼きなまし実装
+# TODO:

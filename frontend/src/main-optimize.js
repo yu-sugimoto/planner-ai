@@ -7,25 +7,17 @@ const optimizeButton = document.getElementById('optimizeButton');
 optimizeButton.addEventListener('click', async function() {
     // フォームのバリデーション
     const budget = document.getElementById('budget');
+    const startTimes = document.getElementById('startTimes');
     const days = document.getElementById('days');
     const people = document.getElementById('people');
     const latitude  = localStorage.getItem('latitude');
     const longitude = localStorage.getItem('longitude');
     const departure = localStorage.getItem('departure');
     const area      = localStorage.getItem('area');
+    const startDate = document.getElementById('startDate');
 
-    const timeValue = document.getElementById('startDate').value;
     let isValid = true;
     let numericTime = 0;
-    if (timeValue) {
-        const [hourStr, minuteStr] = timeValue.split(':');
-        const hour = parseInt(hourStr, 10);
-        const minute = parseInt(minuteStr, 10);
-        numericTime = hour * 100 + minute;
-    } else {
-        showError(people, '時間を正しく入力して下さい。');
-        isValid = false;
-    }
 
     clearErrors();
 
@@ -47,14 +39,26 @@ optimizeButton.addEventListener('click', async function() {
     if (isValid) {
         try {
             // 8000番ポートで動くFastAPIサーバにPOST
-            const response = await fetch('http://localhost:8000/api/optimize', {
+            console.log("area: " + area);
+            console.log("budget: " + parseInt(budget.value));
+            console.log("days: " + parseInt(days.value));
+            console.log("startDate: " + startDate.value);
+            console.log("startTimes: " + startTimes.value);
+            console.log("people: " + parseInt(people.value));
+            console.log("latitude: " + latitude);
+            console.log("longitude: " + longitude);
+            console.log("departure: " + departure);
+
+            
+            const response = await fetch('http://127.0.0.1:8000/api/optimize', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
                     area: area,
                     budget: parseInt(budget.value),
                     days: parseInt(days.value),
-                    startDate: numericTime,
+                    startDate: startDate.value,
+                    startTimes: startTimes.value,
                     people: parseInt(people.value),
                     latitude: latitude ? parseFloat(latitude) : 0,
                     longitude: longitude ? parseFloat(longitude) : 0,
