@@ -9,6 +9,11 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     const resultData = JSON.parse(resultDataJSON);
+    console.log(resultData);
+    if (resultData["route"].length === 0){
+        alert('条件に該当するルートはありませんでした。');
+        return;
+    }
 
     const map = L.map('map', {
         center: [35.681236, 139.767125], // 東京駅付近
