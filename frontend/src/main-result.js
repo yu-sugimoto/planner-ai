@@ -44,6 +44,11 @@ window.addEventListener('DOMContentLoaded', () => {
             滞在時間(分): ${point.stay_duration_minutes}<br>
             合計コスト: ${point.total_cost}
         `;
+        // name="大阪駅"の場合、詳細ボタンは削除
+        if (point.name === '大阪駅') {
+            const a = div.querySelector('a');
+            a.remove();
+        }
         routeList.appendChild(div);
     });
 
