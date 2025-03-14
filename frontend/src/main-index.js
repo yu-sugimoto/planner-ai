@@ -55,18 +55,13 @@ if (gpsButton) {
 
 if (nextButton) {
     nextButton.addEventListener('click', () => {
-        const departure = departureInput.value.trim();
         const area = areaInput.value.trim();
-        if (!departure) {
-            alert('出発地を入力してください');
-            return;
-        }
         if (!area || area === 'エリアを選択') {
             alert('エリアを入力してください');
             return;
         }
         localStorage.setItem('area', area);
-        localStorage.setItem('departure', departure);
+        localStorage.setItem('departure', '');
         localStorage.setItem('latitude', userLatitude || '');
         localStorage.setItem('longitude', userLongitude || '');
         window.location.href = 'optimize.html';
