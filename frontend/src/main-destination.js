@@ -31,9 +31,6 @@ fetch(url)
         <strong>説明:</strong><br>
         ${data.destination_description}
       </p>
-      <div class="uk-text-center uk-margin-small-top">
-        <img src="${data.image_url}" alt="destination image" style="max-width: 200px;">
-      </div>
     `;
 
         const { destination_latitude, destination_longitude } = data;
