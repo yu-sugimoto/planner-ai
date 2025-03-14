@@ -71,6 +71,9 @@ optimizeButton.addEventListener('click', async function() {
             }
 
             const resultData = await response.json();
+            if (resultData === {"route": []}){
+                throw new Error('該当する組み合わせが存在しません');
+            }
 
             // 取得したルートを localStorage に格納
             localStorage.setItem('resultData', resultData);
