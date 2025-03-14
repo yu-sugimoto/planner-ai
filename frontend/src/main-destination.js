@@ -23,7 +23,6 @@ fetch(url)
             <p>料金: ${data.destination_fare}</p>
             <p>平均滞在時間: ${data.destination_staytime}分</p>
             <p>説明: ${data.destination_description}</p>
-            <img src="${data.image_url}" alt="destination image">
         `;
     })
     .catch(error => {

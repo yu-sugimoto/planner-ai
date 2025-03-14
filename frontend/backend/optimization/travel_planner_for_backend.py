@@ -5,7 +5,7 @@ import random
 from typing import Dict, Any
 from datetime import datetime, timedelta
 
-DATA_DIRECTORY = "../optimization/data"
+DATA_DIRECTORY = "./optimization/data"
 
 
 def load_data():

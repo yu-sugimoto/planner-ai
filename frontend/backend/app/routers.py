@@ -54,75 +54,6 @@ def get_destination(destination_name: str, db: Session = Depends(get_db)):
     if destination is None:
         raise HTTPException(status_code=404, detail="Destination not found")
 
-    # Wikipedia API を使った画像取得処理
-    API_URL = "https://ja.wikipedia.org/w/api.php"
-
-    def get_image_url(query):
-        search_params = {
-            'action': 'query',
-            'list': 'search',
-            'srsearch': query,
-            'utf8': '',
-            'format': 'json'
-        }
-        response = requests.get(API_URL, params=search_params)
-        search_data = response.json()
-        
-        if 'query' in search_data and 'search' in search_data['query']:
-            page_title = search_data['query']['search'][0]['title']
-            print(f"Found page: {page_title}")
-        else:
-            print("No results found.")
-            return None
-
-        image_params = {
-            'action': 'query',
-            'titles': page_title,
-            'prop': 'images',
-            'format': 'json'
-        }
-        response = requests.get(API_URL, params=image_params)
-        image_data = response.json()
-
-        if 'query' in image_data and 'pages' in image_data['query']:
-            page = list(image_data['query']['pages'].values())[0]
-            if 'images' in page:
-                image_file = page['images'][0]['title']
-                print(f"Found image file: {image_file}")
-            else:
-                print("No images found on the page.")
-                return None
-        else:
-            print("No images found on the page.")
-            return None
-
-        image_info_params = {
-            'action': 'query',
-            'titles': image_file,
-            'prop': 'imageinfo',
-            'iiprop': 'url',
-            'format': 'json'
-        }
-        response = requests.get(API_URL, params=image_info_params)
-        image_info_data = response.json()
-
-        if 'query' in image_info_data and 'pages' in image_info_data['query']:
-            page = list(image_info_data['query']['pages'].values())[0]
-            if 'imageinfo' in page:
-                image_url = page['imageinfo'][0]['url']
-                return image_url
-            else:
-                print("No image URL found.")
-                return None
-        else:
-            print("No image URL found.")
-            return None
-    
-    query = destination.destination_name
-    image_url = get_image_url(query)
-    if image_url:
-        print(f"Image URL: {image_url}")
-
     destination_dict = {
         "destination_id": destination.destination_id,
         "destination_name": destination.destination_name,
@@ -135,7 +66,6 @@ def get_destination(destination_name: str, db: Session = Depends(get_db)):
         "destination_latitude": destination.destination_latitude,
         "destination_longitude": destination.destination_longitude,
         "destination_area": destination.destination_area,
-        "image_url": image_url
     }
     
     return JSONResponse(content=destination_dict)
