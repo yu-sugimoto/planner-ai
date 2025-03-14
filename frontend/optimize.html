@@ -7,7 +7,19 @@
     <title>最適化ページ</title>
     <!-- UIkit CSS (CDN) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
-    <!-- メインCSS (Viteバンドル) -->
+    <style>
+        @media (min-width: 768px) {
+            .responsive-width {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .responsive-width {
+                width: 100%;
+            }
+        }
+    </style>
     <script type="module" src="/src/main-optimize.js"></script>
 </head>
 <body>
@@ -16,42 +28,39 @@
         <a class="uk-navbar-item uk-logo" href="#">Planner AI</a>
     </div>
 </nav>
-<!--<div class="uk-navbar-left">-->
-<!--    <a class="uk-navbar-item uk-logo" href="index.html">戻る</a>-->
-<!--</div>-->
 <div class="uk-container uk-margin-top">
     <form class="uk-form-stacked">
         <div class="uk-margin">
             <label class="uk-form-label" for="budget">予算 (円)</label>
-            <div class="uk-form-controls" style="width: 40%;">
+            <div class="uk-form-controls responsive-width">
                 <input class="uk-input" id="budget" type="number" min="0" placeholder="予算を入力">
             </div>
         </div>
 
         <div class="uk-margin">
             <label class="uk-form-label" for="days">日数</label>
-            <div class="uk-form-controls" style="width: 40%;">
+            <div class="uk-form-controls responsive-width">
                 <input class="uk-input" id="days" type="number" min="1" placeholder="滞在日数">
             </div>
         </div>
 
         <div class="uk-margin">
             <label class="uk-form-label" for="startDate">出発日</label>
-            <div class="uk-form-controls" style="width: 40%;">
+            <div class="uk-form-controls responsive-width">
                 <input class="uk-input" id="startDate" type="date" />
             </div>
         </div>
 
         <div class="uk-margin">
             <label class="uk-form-label" for="startTimes">出発時刻</label>
-            <div class="uk-form-controls" style="width: 40%;">
+            <div class="uk-form-controls responsive-width">
                 <input class="uk-input" id="startTimes" type="time" />
             </div>
         </div>
 
         <div class="uk-margin">
             <label class="uk-form-label" for="people">人数</label>
-            <div class="uk-form-controls" style="width: 40%;">
+            <div class="uk-form-controls responsive-width">
                 <input class="uk-input" id="people" type="number" min="1" placeholder="旅行する人数">
             </div>
         </div>
