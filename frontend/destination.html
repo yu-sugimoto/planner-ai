@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title></title>
-    <!-- UIkit CSS (CDN) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>目的地の詳細</title>
 
-    <!-- Leaflet CSS (CDN) -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
-
-    <script type="module" src="/src/main-destination.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    />
+    <script
+            src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"
+            defer
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"
+            defer
+    ></script>
+    <script
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            defer
+    ></script>
+    <script type="module" src="/src/main-destination.js" defer></script>
 </head>
+
 <body>
 <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-left">
-        <a class="uk-navbar-item uk-logo" href="result.html">戻る</a>
+        <a class="uk-navbar-item uk-logo" href="result.html">
+            <span uk-icon="icon: arrow-left"></span> 戻る
+        </a>
     </div>
 </nav>
 
-<div id="app">
-    <div id="destination-detail">
-    <p>データを取得中...</p>
+<div class="uk-container uk-margin-top">
+    <div id="app" class="uk-grid-small" uk-grid>
+        <div class="uk-width-1-1 uk-width-1-2@s">
+            <div id="destination-detail" class="uk-card uk-card-default uk-card-body">
+                <p>データを取得中...</p>
+            </div>
+        </div>
+        <div class="uk-width-1-1 uk-width-1-2@s">
+            <div id="map" class="uk-height-medium" style="height: 400px;">
+            </div>
+        </div>
     </div>
 </div>
-
-<!-- UIkit JS (CDN) -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
-
-<!-- Leaflet JS (CDN) -->
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 </body>
 </html>
