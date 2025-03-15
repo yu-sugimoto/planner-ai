@@ -44,7 +44,12 @@ if (gpsButton) {
                     departureInput.value += "大阪市";
                 },
                 (error) => {
-                    alert('GPS取得に失敗しました: ' + error.message);
+                    userLatitude = 34.702485;
+                    userLongitude = 135.495951;
+                    gpsInfo.style.display = 'block';
+                    gpsInfo.textContent = `緯度:${userLatitude}, 経度:${userLongitude}`;
+                    // htmlに追加
+                    departureInput.value += "大阪市";
                 }
             );
         } else {
