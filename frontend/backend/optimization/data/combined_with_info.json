@@ -5657,22 +5657,6 @@
   ],
   "osaka": [
     {
-      "name": "Universal Studios Japan",
-      "category": "Amusement Center",
-      "rating": 4.5,
-      "address": "<span class=\"street-address\">2-chōme-1-33 Sakurajima, Konohana Ward, Osaka</span>, <span class=\"postal-code\">554-0031</span>, <span class=\"country-name\">Japan</span>",
-      "location": {
-        "lat": 34.6656768,
-        "lng": 135.4323185
-      },
-      "japanese_name": "ユニバーサル・スタジオ・ジャパン",
-      "description": "ユニバーサル・スタジオ・ジャパンは、大阪にある人気のテーマパークです。映画をテーマにしたアトラクションやショーが楽しめ、家族連れや友人同士で訪れるのに最適な場所です。多彩なエンターテインメントが揃っており、一日中楽しむことができます。",
-      "fare": 8000,
-      "staytime": 480,
-      "ishotel": false,
-      "id": 356
-    },
-    {
       "name": "Osaka Aquarium Kaiyukan",
       "category": "Aquarium",
       "rating": 4.4,
@@ -6567,22 +6551,6 @@
       "staytime": 30,
       "ishotel": false,
       "id": 412
-    },
-    {
-      "name": "Mt. Rokkō Snow Park",
-      "category": "Ski Resort",
-      "rating": 4,
-      "address": "<span class=\"street-address\">Kitarokkō-4512-98 Rokkōsanchō, Nada Ward, Kobe</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">657-0101</span>, <span class=\"country-name\">Japan</span>",
-      "location": {
-        "lat": 34.7679067,
-        "lng": 135.2426071
-      },
-      "japanese_name": "六甲山スノーパーク",
-      "description": "六甲山スノーパークは、神戸市に位置するスキーリゾートです。冬季にはスキーやスノーボードを楽しむことができ、初心者から上級者まで幅広いコースが用意されています。美しい自然に囲まれた環境で、家族や友人と楽しい時間を過ごせます。",
-      "fare": 5000,
-      "staytime": 180,
-      "ishotel": false,
-      "id": 413
     },
     {
       "name": "Hyogo Performing Arts Center",
