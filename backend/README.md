@@ -1,6 +1,6 @@
 # backend
 
-（仮）trip_planner の API
+Planner AI の API
 
 ## 目次
 
