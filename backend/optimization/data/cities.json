@@ -1,0 +1,15 @@
+{
+	"cities": [
+	  { "name": "hakodate", "location": { "lat": 41.7687, "lng": 140.7288 } },
+	  { "name": "hiroshima", "location": { "lat": 34.3853, "lng": 132.4553 } },
+	  { "name": "kobe", "location": { "lat": 34.6913, "lng": 135.1830 } },
+	  { "name": "nagoya", "location": { "lat": 35.1815, "lng": 136.9066 } },
+	  { "name": "sendai", "location": { "lat": 38.2689, "lng": 140.8721 } },
+	  { "name": "tokyo", "location": { "lat": 35.6895, "lng": 139.6917 } },
+	  { "name": "yokohama", "location": { "lat": 35.4437, "lng": 139.6380 } },
+	  { "name": "osaka", "location": { "lat": 34.6937, "lng": 135.5023 } },
+	  { "name": "kyoto", "location": { "lat": 35.0116, "lng": 135.7681 } },
+	  { "name": "nara", "location": { "lat": 34.6851, "lng": 135.8048 } }
+	]
+  }
+  
