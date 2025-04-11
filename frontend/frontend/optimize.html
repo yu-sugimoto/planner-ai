@@ -1,0 +1,77 @@
+<!-- optimize.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>最適化ページ</title>
+    <!-- UIkit CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/css/uikit.min.css" />
+    <style>
+        @media (min-width: 768px) {
+            .responsive-width {
+                width: 50%;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .responsive-width {
+                width: 100%;
+            }
+        }
+    </style>
+    <script type="module" src="/src/main-optimize.js"></script>
+</head>
+<body>
+<nav class="uk-navbar-container uk-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="/">Planner AI</a>
+    </div>
+</nav>
+<div class="uk-container uk-margin-top">
+    <form class="uk-form-stacked">
+        <div class="uk-margin">
+            <label class="uk-form-label" for="budget">予算 (円)</label>
+            <div class="uk-form-controls responsive-width">
+                <input class="uk-input" id="budget" type="number" min="0" placeholder="予算を入力">
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <label class="uk-form-label" for="days">日数</label>
+            <div class="uk-form-controls responsive-width">
+                <input class="uk-input" id="days" type="number" min="1" placeholder="滞在日数">
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <label class="uk-form-label" for="startDate">出発日</label>
+            <div class="uk-form-controls responsive-width">
+                <input class="uk-input" id="startDate" type="date" />
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <label class="uk-form-label" for="startTimes">出発時刻</label>
+            <div class="uk-form-controls responsive-width">
+                <input class="uk-input" id="startTimes" type="time" />
+            </div>
+        </div>
+
+        <div class="uk-margin">
+            <label class="uk-form-label" for="people">人数</label>
+            <div class="uk-form-controls responsive-width">
+                <input class="uk-input" id="people" type="number" min="1" placeholder="旅行する人数">
+            </div>
+        </div>
+        <div class="uk-margin">
+            <button class="uk-button uk-button-primary" type="button" id="optimizeButton">ルートを最適化</button>
+        </div>
+    </form>
+</div>
+
+<!-- UIkit JS (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.17/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

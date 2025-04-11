@@ -1,0 +1,69 @@
+{
+  "函館": [
+    {
+      "name": "道南トロッコ鉄道鶴岡公園駅",
+      "category": "Tourist Attraction",
+      "rating": 4.1,
+      "address": "<span class=\"street-address\">73 Tsuruoka, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0455</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.67088,
+        "lng": 140.41205929999998
+      },
+      "description": "道南トロッコ鉄道鶴岡公園駅は、北海道の美しい自然を楽しむことができる観光スポットです。トロッコ列車に乗って、風光明媚な景色を楽しみながら、のんびりとした時間を過ごせます。また、駅周辺には鶴岡公園があり、四季折々の自然を満喫することができます。",
+      "fare": "トロッコ列車の乗車料金は大人約1,000円から1,500円程度です。プラスして、入園料や周辺のアトラクション費用がかかる場合がありますので、全体で2,000円から",
+      "staytime": "滞在時間情報なし"
+    },
+    {
+      "name": "ローマへの道",
+      "category": "Tourist Attraction",
+      "rating": 4.6,
+      "address": "<span class=\"street-address\">Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7349332,
+        "lng": 140.5748082
+      },
+      "description": "「ローマへの道」は、古代ローマ時代に重要な交通路として利用されていた歴史的な道です。この道は、ローマ帝国の中心から各地へと広がる幹線道路で、観光客は歴史と文化を感じながら散策することができます。美しい景観や古代の遺跡が点在しているため、歴史愛好家や自然を楽しみたい方におすすめのスポットです。",
+      "fare": "「ローマへの道」の入場料金は無料ですが、周辺の観光施設やガイドツアーを利用する場合は、1人あたり約10〜30ユーロの費用がかかることがあります",
+      "staytime": "滞在時間情報なし"
+    },
+    {
+      "name": "Hokkaido Shinkansen Kikonai View Spot Observatory",
+      "category": "Observation Deck",
+      "rating": 3.6,
+      "address": "<span class=\"street-address\">39-4 Tategawa, Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0452</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6640338,
+        "lng": 140.4179811
+      },
+      "description": "北海道新幹線木古内ビュースポット展望台は、北海道の美しい自然や新幹線の通過を眺めることができる絶好の場所です。展望台からは、函館湾や周囲の山々の壮大な景色を楽しむことができ、四季折々の風景が魅力的です。",
+      "fare": "見学は無料ですが、駐車場を利用する場合は料金が発生することがあります。具体的な費用は、利用する施設やサービスによって異なるため、事前に確認することをお勧めします。",
+      "staytime": "滞在時間は一般的に30"
+    },
+    {
+      "name": "Lourdes Cave",
+      "category": "Historical Landmark",
+      "rating": 4,
+      "address": "<span class=\"street-address\">392 Mitsuishi, Hokuto</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0283</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.7441562,
+        "lng": 140.5619868
+      },
+      "description": "ルルドの洞窟はフランスの南西部に位置する歴史的なランドマークで、信仰の聖地として知られています。1858年にベルナデッタ・スビルーが聖母マリアの出現を体験した場所であり、以来、多くの巡礼者が訪れています。洞窟周辺には美しい聖域や教会もあり、祈りの場としても重要です。",
+      "fare": "入場料は無料ですが、周辺の施設やガイドツアーなどを利用すると、平均で約10〜20ユーロ程度の追加費用がかかることがあります。宿泊や食事を含むと、全体で1",
+      "staytime": "滞在時間情報なし"
+    },
+    {
+      "name": "Samegawa Shrine",
+      "category": "Place of Worship",
+      "rating": 4.2,
+      "address": "<span class=\"street-address\">155-1 Kikonai, Kamiiso District</span>, <span class=\"region\">Hokkaido</span> <span class=\"postal-code\">049-0431</span>, <span class=\"country-name\">Japan</span>",
+      "location": {
+        "lat": 41.6822023,
+        "lng": 140.4318816
+      },
+      "description": "鮫川神社は、日本の伝統的な神社で、自然に囲まれた静かな場所に位置しています。地元の人々にとって重要な信仰の場であり、特に水の神様を祀っています。美しい景観と歴史的な建築が魅力で、訪れる人々に安らぎを提供しています。",
+      "fare": "鮫川神社への入場は無料ですが、願い事を込めたお守りやお札を購入する場合、通常500円から3000円程度の費用がかかります。",
+      "staytime": "鮫川神社での滞在時間は、一般的に30分から"
+    }
+  ]
+}

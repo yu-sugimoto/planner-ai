@@ -1,0 +1,18 @@
+{
+  "name": "my-vite-uikit-project",
+  "version": "1.0.0",
+  "description": "Vite + UIkit + Express + Leaflet example",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uikit": "^3.16.17"
+  },
+  "devDependencies": {
+    "leaflet": "^1.9.3",
+    "vite": "^4.0.0"
+  }
+}
